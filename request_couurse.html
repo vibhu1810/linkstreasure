@@ -1,0 +1,175 @@
+<!doctype html>
+<html amp lang="en">
+<head>
+    <meta charset="utf-8">
+ 
+  <title>Learn Android Development - [2018] Most Upvoted Tutorials |  </title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="normalize.css">
+<link rel="stylesheet" href="request_course_style.css">
+
+
+</head>
+<body class="topic-page">
+<!-------------header----------------------->
+  <div class="top-container">
+  <h1>Scroll Down</h1>
+  <p>Scroll down to see the sticky effect.</p>
+</div> 
+<!------------------------------------------>
+<!------navigation bar----------->
+
+<div class="header" id="myHeader">
+<a class="home-btn"><i class="fa fa-home"></i><a>
+<div class="ctgry-dropdown">
+  <button class="ctgry-dropbtn"><i class="fa fa-th"></i></button>
+  <div class="ctgry-dropdown-content">
+    <a href="#">Link 1</a>
+    <a href="#">Link 2</a>
+    <a href="#">Link 3</a>
+	<a href="#">Link 4</a>
+    <a href="#">Link 5</a>
+    <a href="#">Link 6</a>
+  </div>
+</div>
+<!------------------request course---------------->
+<div class="rqc-dropdown">
+  <button class="rqc-dropbtn">Request Course <i class="fa fa-caret-down"></i></button>
+  <div class="rqc-dropdown-content" >
+    <a href="#">Request New Course</a>
+    <a href="#">Request Course Update</a>
+  </div>
+</div>
+   <!---------search box--------------------------->
+  <form class="example" action="/action_page.php" style="width:50%; margin:10px 2px;float:left;">
+  <input type="text" placeholder="Search.." name="search2">
+  <button type="submit"><i class="fa fa-search"></i></button>
+</form>
+
+<script>
+window.onscroll = function() {myFunction()};
+
+var header = document.getElementById("myHeader");
+var sticky = header.offsetTop
+
+function myFunction() {
+  if (window.pageYOffset >= sticky) {
+    header.classList.add("sticky");
+  } else {
+    header.classList.remove("sticky");
+  }
+}
+</script>
+<!--------------------submit------------------------->
+<button id="submit_btn" onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Submit</button>
+<div id="id01" class="submit_modal">
+  
+  <form class="submit_modal-content animate" method="post" action >
+    <div class="imgcontainer">
+      <span onclick="document.getElementById('id01').style.display='none'" class="submit_close" title="Close Modal">&times;</span>
+      <img src="capture.png" alt="Avatar" class="submit_avatar"></img>
+    </div>
+
+    <div class="submit-container">
+	<center><h1>Submit Course/Tutorial</h1></center>
+	<center>Paste the course/tutorial link below:</center>
+	
+	<input type="text" name="siteurl" placeholder="URL OF THE TUTORIAL" />
+	<style>
+	h3{background-color:gray;}</style>
+	<h3  style="">Tell us more about this course/tutorial (optional)*</h3>
+	 
+    <label for="lang"><b>Programming language/<br/>Framework/Library:</b></label>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	<select  style="width:25%; height:25px; border-radius:8px;placeholder:Eg.python,Angular;"name="lang">
+	<option value=" "></option>
+    <option value="Python">Python</option>
+    <option value="C++">C++</option>
+    <option value="Angular">Angular</option>
+    <option value="C#">C#</option>
+    </select></br></br></br>
+
+      <label for="psw"><b>Tag:</b></label>
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+	  <input type="radio" name="price" value="free">Free
+      <input type="radio" name="price" value="paid">Paid
+	  <input type="radio" name="type" value="video">Video
+      <input type="radio" name="type" value="book">Book
+	  </br></br></br>
+	  
+	   <label for="psw"><b>This course is for:</b></label>
+	   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+	   <input type="radio" name="level" value="beginner"> Beginner
+       <input type="radio" name="level" value="advanced">Advanced  
+       <input type="radio" name="level" value="expertise"> Expertise
+	   </br></br></br>
+	   
+	    <label for="psw"><b>Language:</b></label>
+	    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+	    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+		&nbsp;&nbsp;&nbsp;&nbsp; 
+	    <input type="radio" name="language" value="hindi">Hindi
+        <input type="radio" name="language" value="english ">English 
+		<input type="radio" name="language" value="chiness">chiness 
+   
+        
+      <button id="submit_btn"type="submit" name ="submit">SUBMIT TUTORIAL</button>
+      <label>
+        <input type="checkbox" checked="checked" name="remember"> Remember me
+      </label>
+    </div>
+
+    <div class="submit-container" style="background-color:#f1f1f1">
+      <button type="button" onclick="document.getElementById('id01').style.display='none'" class="submit_cancelbtn">Cancel</button>
+    <span class="signin"> <a href="#">SIGN IN</a></span>
+    </div>
+  </form>
+</div>
+
+<script>
+// Get the modal
+var modal = document.getElementById('id01');
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
+}
+</script>
+</div>
+<!---------------------request course------------------------------->
+<div class="rq-mainblock">
+<div class="rq-header">
+<h1>Request Course</h1>
+</div>
+<div class="input-block">
+<p>Name of the course</p>
+<input type="text" name="course" placeholder="Name of the course">
+<p>user name</p>
+<input type="text" name="name" placeholder="User Name">
+<p>Email</p>
+<input type="email" name="email" placeholder="Your Email Id">
+<input type="submit" name="email" value="Submit">
+</div>
+</div>
+ 
+<!-------------------------------footer----------------------------------------------> 
+   <footer>
+                    <div class="opt" style="color:purple; font-size:15px; ">
+					<a>Home</a>
+					<a>About Us</a>
+					<a>Contact Us</a>
+					<a>Help & FAQ</a>
+					<a>Feedback</a>
+					</div>
+					<a href="https://www.facebook.com/mytutorial.links.5"> <img src ="new/facebook.png" alt="facebook logo" class="social-icon"> </a>
+					<a href="https://www.facebook.com/mytutorial.links.5"> <img src="new/twitter.png" alt="twitter logo"class="social-icon"></a>
+					<p>&copy;<?php echo date("Y");?> @mytutoriallinks.com</p>
+				</footer> 	
+</body>
+</html>

@@ -1,0 +1,491 @@
+<!doctype html>
+<html amp lang="en">
+<head>
+    <meta charset="utf-8">
+  <script async src="https://cdn.ampproject.org/v0.js"></script>
+  <title>Intro to Programming - Most Upvoted Programming Tutorials | Hackr.io</title>
+<meta name="description" content="Learning Intro to Programming? Check out these best online Intro to Programming courses and tutorials recommended by the programming community. Pick the tutorial as per your learning style: video tutorials or a book. Free course or paid. Tutorials for beginners or advanced learners. Check Intro to Programming community's reviews & comments.">
+<meta itemprop="name" content="Learn Intro to Programming - Best Intro to Programming Tutorials | Hackr.io">
+<meta itemprop="description" content="Learning Intro to Programming? Check out these best online Intro to Programming courses and tutorials recommended by the programming community. Pick the tutorial as per your learning style: video tutorials or a book. Free course or paid. Tutorials for beginners or advanced learners. Check Intro to Programming community's reviews & comments.">
+<meta itemprop="image" content="https://hackr.io/tutorials/learn-intro-to-programming/logo/intro-to-programming_logo">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:creator" content="@hackrio_">
+<meta name="twitter:description" content="Learning Intro to Programming? Check out these best online Intro to Programming courses and tutorials recommended by the programming community. Pick the tutorial as per your learning style: video tutorials or a book. Free course or paid. Tutorials for beginners or advanced learners. Check Intro to Programming community's reviews & comments.">
+<meta name="twitter:image" content="https://hackr.io/tutorials/learn-intro-to-programming/logo/intro-to-programming_logo">
+<meta name="twitter:image:alt" content="Learn Intro to Programming - Best Intro to Programming Tutorials | Hackr.io">
+  <meta property="og:title" content="Learn Intro to Programming - Best Intro to Programming Tutorials | Hackr.io" />
+<meta property="og:description" content="Learning Intro to Programming? Check out these best online Intro to Programming courses and tutorials recommended by the programming community. Pick the tutorial as per your learning style: video tutorials or a book. Free course or paid. Tutorials for beginners or advanced learners. Check Intro to Programming community's reviews & comments." />
+<meta property="og:url" content="https://hackr.io/tutorials/learn-intro-to-programming" />
+<meta property="og:type" content="website" />
+<meta property="og:site_name" content="Hackr.io" />
+<meta property="og:fb:app_id" content="1457383854551756" />
+<meta property="og:image" content="https://hackr.io/tutorials/learn-intro-to-programming/logo/intro-to-programming_logo" />
+
+  <meta name="twitter:site" content="@hackrio_" />
+<meta name="twitter:title" content="Learn Intro to Programming - Best Intro to Programming Tutorials | Hackr.io" />
+  <link href="https://hackr.io/tutorials/learn-intro-to-programming" rel="canonical" />
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <style amp-custom>
+    a{color:#33373d;text-decoration:none}*{outline:0}body{font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;font-weight:400;-webkit-font-smoothing:antialiased;color:#616161}.nowrap{white-space:nowrap;overflow:hidden;text-overflow:ellipsis}.col-5{width:31.25%}.col-5,.col-11{box-sizing:border-box;float:left;min-height:1px}.col-11{width:68.75%}.label{display:inline;padding:4px 8px;font-size:11px;font-weight:700;line-height:1;color:#fff;text-align:center;white-space:nowrap;vertical-align:baseline;border-radius:.25em}.label-xs{font-size:11px;font-weight:500}.label-light{background-color:#e1e1e1;color:#6e6e6e;border-bottom:none}.label-light.label-link:hover{background-color:#d5d5d5;color:#6e6e6e;border-bottom:none}.label-danger,.label-info,.label-primary,.label-success{background:#e8f0fa;color:#3364aa}.label-trending{background-color:#f8e4ff;color:#66499e}.label-orange,.label-teal,.label-warning{background:#e8f0fa;color:#3364aa}.label-pink{background-color:#ffedf4;color:#c11e65;opacity:1}.label-new{background-color:#f8e4ff;color:#66499e;opacity:1}.label-language{background-color:#ffecd5;color:#ce4927;opacity:1}.navbar{height:60px;position:fixed;width:100%;top:0;box-sizing:border-box;padding:5px 0;border-bottom:1px solid #e6e6e6;z-index:2;background-color:#fff}.navbar .left{height:100%;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:start;-ms-flex-pack:start;justify-content:flex-start;-webkit-justify-content:flex-start;box-sizing:border-box;width:68.75%;float:left;min-height:1px}.navbar .left .title{padding-left:10px;margin-top:8px}.navbar .left .title img{height:30px}.navbar .right{float:right;height:100%;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:end;-ms-flex-pack:end;justify-content:flex-end;-webkit-box-align:center;-ms-flex-align:center;align-items:center;box-sizing:border-box;width:31.25%;float:left;min-height:1px}.navbar .right .icon{padding:0 15px;height:100%;color:#3c7dc0;font-size:22px}footer{background:#fff;border-top:1px solid #e6e6e6;padding:15px 0;margin-top:15px;z-index:1;position:relative}footer .links{flex:1}footer .links ul li{padding:5px 10px}footer .links ul li a{color:#3c7dc0;font-size:13px}footer .links .fx-links{flex-wrap:wrap;justify-content:center;display:flex;list-style:none;margin:0;padding-left:0;padding:0 10px}footer .social-links{margin-top:5px}footer .social-links .fx-links{justify-content:center}footer .social-links li a{padding:2px 8px 4px;border-radius:3px}footer .social-links li a:focus,footer .social-links li a:hover{color:#fff;border-bottom:none}footer .social-links li a.facebook{color:#fff;background-color:#3b5998}footer .social-links li a.twitter{color:#fff;background-color:#1da1f2}footer .social-links li a i{display:inline-block;margin-right:10px;margin-bottom:-2px}.topic-page{background-color:#fafafa}.topic-page .head{padding:80px 15px 25px}.topic-page .head .title{display:flex;align-items:center;margin-bottom:15px}.topic-page .head .title .right{margin-left:15px}.topic-page .head .title .right .topic_name{font-size:22px;font-weight:500}.topic-page .head .desc .topic_desc p{font-size:16px;line-height:1.2;margin-top:5px;color:#525252;margin-bottom:0;text-align:center}.topic-page .head .social{display:flex;align-items:center;justify-content:center;flex-wrap:wrap;margin-top:15px}.topic-page .head .social .share-btn{display:flex;border:1px solid transparent;border-radius:3px;margin:0 6px;font-size:12px;font-weight:500;transition:all .1s linear;padding:3px 7px;margin-bottom:10px}.topic-page .head .social .share-btn i{font-size:14px;padding:5px 9px 5px 3px}.topic-page .head .social .share-btn .txt{padding:5px 9px 5px 3px;font-weight:700}.topic-page .head .social .share-btn.facebook{border-color:#3b5998;background:#3b5998;color:#fff}.topic-page .head .social .share-btn.twitter{border-color:#1da1f2;background:#1da1f2;color:#fff}.topic-page .head .social .share-btn.linkedin{border-color:#0077b5;background:#0077b5;color:#fff}.topic-page .listing-wrapper{background-color:#fff}.topic-page .listing-wrapper .listing-head{display:flex;padding:10px 15px;font-size:14px;font-weight:700;border-bottom:1px solid #e6e6e6}.topic-page .listing-wrapper .listing-head .left{flex:1}.topic-page .listing-wrapper .listing-head .right .filter a{margin-left:10px;color:#3c7dc0}.topic-page .listing-wrapper .listing-head .right .sorter a{margin-left:10px}.topic-page .listing-wrapper .listing-head .right .sorter a.active{color:#3c7dc0}.topic-page .listing-wrapper .listing .list-item{display:flex;padding:20px 15px 15px;border-bottom:1px solid #e6e6e6}.topic-page .listing-wrapper .listing .list-item:first-child{padding-top:15px}.topic-page .listing-wrapper .listing .list-item:last-child{border-bottom:none}.topic-page .listing-wrapper .listing .list-item .left .vote-btn{display:flex;flex-direction:column;align-items:center;width:25px;height:auto;justify-content:center;font-size:16px;padding:10px 14px 14px;background:#f9f9f9;color:#616161;border:1px solid #d9d9d9;border-radius:3px}.topic-page .listing-wrapper .listing .list-item .left .vote-btn .arrow{transform:scale(1.5);line-height:1.2;height:22px}.topic-page .listing-wrapper .listing .list-item .right{margin-left:15px}.topic-page .listing-wrapper .listing .list-item .right .title-tags{margin-right:10px;display:inline-block}.topic-page .listing-wrapper .listing .list-item .right .title .tutorial-title{font-size:18px;line-height:1.5;padding-bottom:4px;display:inline;align-items:center;text-decoration:none;color:#3c7dc0}.topic-page .listing-wrapper .listing .list-item .right .title .tutorial-domain{font-size:12px;color:#616161}.topic-page .listing-wrapper .listing .list-item .right .footer{margin-top:10px}.topic-page .listing-wrapper .listing .list-item .right .footer .footer-actions{display:flex;flex-wrap:wrap;align-items:flex-start}.topic-page .listing-wrapper .listing .list-item .right .footer .action{font-size:12px;margin-right:10px;color:#7b7b7b}.topic-page .listing-wrapper .listing .list-item .right .footer .action.author,.topic-page .listing-wrapper .listing .list-item .right .footer .action.tags{margin-bottom:10px}.topic-page .listing-wrapper .listing .list-item .right .footer .action.tags .label{margin-right:2px}.topic-page .listing-wrapper .listing .list-item .right .footer .action a{font-weight:700;color:#7b7b7b}.topic-page .listing-wrapper .listing .list-item .right .footer .action.comments i,.topic-page .listing-wrapper .listing .list-item .right .footer .action.save i{margin-right:5px}.topic-page .listing-wrapper .listing .list-item .right .footer .action.comments a,.topic-page .listing-wrapper .listing .list-item .right .footer .action.save a{color:#7b7b7b}.topic-page .listing-wrapper .listing .list-item .right .footer .btm-footer{display:flex;align-items:center;margin-top:10px;flex-wrap:wrap}.topic-page .listing-wrapper .listing .list-item .right .footer .btm-footer.author{margin-top:8px}.topic-page .listing-wrapper .listing .list-item .right .footer .btm-footer.author a{color:#7b7b7b;font-weight:500}.topic-page .view-all-btn{background:#3c7dc0;display:block;color:#fff;margin:10px;border-radius:4px;text-align:center;padding:10px;margin-top:15px}.topic-page .related-topics{padding:18px 15px;padding-top:25px;margin-bottom:20px}.topic-page .related-topics .heading{font-size:18px;font-weight:600;margin-bottom:5px}.topic-page .related-topics a{display:flex;align-items:center;margin:15px 0;height:100%;padding:15px 20px;font-size:14px;color:inherit;background-color:#fff;border:1px solid #d9d9d9;word-break:break-all;font-size:16px;border-radius:3px;color:#383838;border:1px solid #eee}.topic-page .related-topics a amp-img{margin-right:15px}  </style>
+  <meta name="viewport" content="width=device-width,minimum-scale=1">
+   <style amp-boilerplate>body{-webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-moz-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-ms-animation:-amp-start 8s steps(1,end) 0s 1 normal both;animation:-amp-start 8s steps(1,end) 0s 1 normal both}@-webkit-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-moz-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-ms-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-o-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@keyframes  -amp-start{from{visibility:hidden}to{visibility:visible}}</style><noscript><style amp-boilerplate>body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}</style></noscript>
+</head>
+<body class="topic-page">
+  
+  <header class="navbar">
+  <div class="left">
+    <div class="title">
+      <a href="https://hackr.io">
+        <amp-img class="hackr-logo-text-path" src="https://hackr.io/assets/images/code-images/code-logo.svg" height="30" width="137.09"></amp-img>
+      </a>
+    </div>
+  </div>
+  <div class="right">
+    <a href="https://hackr.io">
+      <span class="icon">
+        <i class="fa fa-search"></i>
+      </span>
+    </a>
+    <a href="https://hackr.io?modal=submit">
+      <span class="icon">
+        <i class="fa fa-user"></i>
+      </span>
+    </a>
+  </div>
+</header>  
+  <div class="container">
+    <div class="head">
+  <div class="title">
+    <div class="left">
+      <amp-img alt="Learn Intro to Programming from the best Intro to Programming tutorials/courses online."
+        src="https://hackr.io/tutorials/learn-intro-to-programming/svg/intro-to-programming_logo"
+        width="70"
+        height="70">
+      </amp-img>
+    </div>
+    <div class="right">
+      <div class="topic_name">Intro to Programming Tutorials and Courses</div>
+    </div>
+  </div>
+  <div class="desc">
+    <div class="topic_desc">
+      <p>Get an intro to programming by the best online programming tutorials submitted &amp; voted by the programming community. Learn programming fundamentals online and build your dreams!</p>
+    </div>
+  </div>
+</div>
+    <div class="listing-wrapper">
+
+  <div class="listing-head">
+    <div class="left">
+      <div class="title">Top Tutorials</div>
+    </div>
+    <div class="right">
+      <div class="filter">
+        <a href="https://hackr.io/tutorials/learn-intro-to-programming?modal=topic-filters">Filters >></a>
+      </div>
+    </div>
+  </div>
+  <div class="listing">
+              <div class="list-item">
+  <div class="left">
+    <a href="https://hackr.io/tutorial/introduction-to-computer-science-harvard-university" class="vote-btn">
+      <div class="arrow"><i class="fa fa-caret-up"></i></div>
+      <div class="count">22</div>
+    </a>
+  </div>
+  <div class="right">
+    <div class="title">
+            <a href="https://hackr.io/tutorial/introduction-to-computer-science-harvard-university" class="tutorial-title" title="Introduction to Computer Science (CS50x) - Harvard University">Introduction to Computer Science (CS50x) - Harvard University</a>
+      <a href="https://hackr.io/tutorial/introduction-to-computer-science-harvard-university" class="tutorial-domain" title="Introduction to Computer Science (CS50x) - Harvard University">(edx.org)</a>
+    </div>
+    <div class="footer">
+      <div class="footer-actions">
+        <div class="action save">
+          <a href="https://hackr.io/tutorial/introduction-to-computer-science-harvard-university?modal=save" class="btn"><i class="fa fa-bookmark"></i>&nbsp;Save</a>
+        </div>
+        <div class="action comments">
+          <a href="https://hackr.io/tutorial/introduction-to-computer-science-harvard-university" class="btn"><i class="fa fa-comment"></i>&nbsp;Comments 
+                      </a>
+        </div>
+      </div>
+      <div class="btm-footer">
+        <div class="action author">
+          <span class="txt">Submitted by</span>
+                      <a href="https://hackr.io/shaurya-gupta">Shaurya</a>
+                  </div>
+        <div class="tags action">
+                      <span class="label label-xs label-success">Free</span>
+                      <span class="label label-xs label-danger">Video</span>
+                  </div>
+      </div>
+    </div>
+  </div>
+</div>          <div class="list-item">
+  <div class="left">
+    <a href="https://hackr.io/tutorial/web-development-tutorials-for-beginners" class="vote-btn">
+      <div class="arrow"><i class="fa fa-caret-up"></i></div>
+      <div class="count">10</div>
+    </a>
+  </div>
+  <div class="right">
+    <div class="title">
+            <a href="https://hackr.io/tutorial/web-development-tutorials-for-beginners" class="tutorial-title" title="Web Development Tutorials For Beginners">Web Development Tutorials For Beginners</a>
+      <a href="https://hackr.io/tutorial/web-development-tutorials-for-beginners" class="tutorial-domain" title="Web Development Tutorials For Beginners">(youtube.com)</a>
+    </div>
+    <div class="footer">
+      <div class="footer-actions">
+        <div class="action save">
+          <a href="https://hackr.io/tutorial/web-development-tutorials-for-beginners?modal=save" class="btn"><i class="fa fa-bookmark"></i>&nbsp;Save</a>
+        </div>
+        <div class="action comments">
+          <a href="https://hackr.io/tutorial/web-development-tutorials-for-beginners" class="btn"><i class="fa fa-comment"></i>&nbsp;Comments 
+                      </a>
+        </div>
+      </div>
+      <div class="btm-footer">
+        <div class="action author">
+          <span class="txt">Submitted by</span>
+                      <a href="https://hackr.io/raja-ram">Raja</a>
+                  </div>
+        <div class="tags action">
+                      <span class="label label-xs label-success">Free</span>
+                      <span class="label label-xs label-danger">Video</span>
+                  </div>
+      </div>
+    </div>
+  </div>
+</div>          <div class="list-item">
+  <div class="left">
+    <a href="https://hackr.io/tutorial/introduction-to-computer-science-and-programming-using-python-mit" class="vote-btn">
+      <div class="arrow"><i class="fa fa-caret-up"></i></div>
+      <div class="count">7</div>
+    </a>
+  </div>
+  <div class="right">
+    <div class="title">
+            <a href="https://hackr.io/tutorial/introduction-to-computer-science-and-programming-using-python-mit" class="tutorial-title" title="Introduction to Computer Science and Programming Using Python - MIT">Introduction to Computer Science and Programming Using Python - MIT</a>
+      <a href="https://hackr.io/tutorial/introduction-to-computer-science-and-programming-using-python-mit" class="tutorial-domain" title="Introduction to Computer Science and Programming Using Python - MIT">(edx.org)</a>
+    </div>
+    <div class="footer">
+      <div class="footer-actions">
+        <div class="action save">
+          <a href="https://hackr.io/tutorial/introduction-to-computer-science-and-programming-using-python-mit?modal=save" class="btn"><i class="fa fa-bookmark"></i>&nbsp;Save</a>
+        </div>
+        <div class="action comments">
+          <a href="https://hackr.io/tutorial/introduction-to-computer-science-and-programming-using-python-mit" class="btn"><i class="fa fa-comment"></i>&nbsp;Comments 
+                      </a>
+        </div>
+      </div>
+      <div class="btm-footer">
+        <div class="action author">
+          <span class="txt">Submitted by</span>
+                      <a href="https://hackr.io/saurabh-hooda">Saurabh</a>
+                  </div>
+        <div class="tags action">
+                      <span class="label label-xs label-success">Free</span>
+                      <span class="label label-xs label-danger">Video</span>
+                  </div>
+      </div>
+    </div>
+  </div>
+</div>          <div class="list-item">
+  <div class="left">
+    <a href="https://hackr.io/tutorial/the-complete-web-developer-course-20" class="vote-btn">
+      <div class="arrow"><i class="fa fa-caret-up"></i></div>
+      <div class="count">5</div>
+    </a>
+  </div>
+  <div class="right">
+    <div class="title">
+            <a href="https://hackr.io/tutorial/the-complete-web-developer-course-20" class="tutorial-title" title="The Complete Web Developer Course 2.0">The Complete Web Developer Course 2.0</a>
+      <a href="https://hackr.io/tutorial/the-complete-web-developer-course-20" class="tutorial-domain" title="The Complete Web Developer Course 2.0">(udemy.com)</a>
+    </div>
+    <div class="footer">
+      <div class="footer-actions">
+        <div class="action save">
+          <a href="https://hackr.io/tutorial/the-complete-web-developer-course-20?modal=save" class="btn"><i class="fa fa-bookmark"></i>&nbsp;Save</a>
+        </div>
+        <div class="action comments">
+          <a href="https://hackr.io/tutorial/the-complete-web-developer-course-20" class="btn"><i class="fa fa-comment"></i>&nbsp;Comments 
+                      </a>
+        </div>
+      </div>
+      <div class="btm-footer">
+        <div class="action author">
+          <span class="txt">Submitted by</span>
+                      <a href="https://hackr.io/succhi-singh">Succhi</a>
+                  </div>
+        <div class="tags action">
+                      <span class="label label-xs label-teal">Paid</span>
+                      <span class="label label-xs label-danger">Video</span>
+                      <span class="label label-xs label-orange">Beginner</span>
+                  </div>
+      </div>
+    </div>
+  </div>
+</div>          <div class="list-item">
+  <div class="left">
+    <a href="https://hackr.io/tutorial/introduction-to-computer-science-using-java" class="vote-btn">
+      <div class="arrow"><i class="fa fa-caret-up"></i></div>
+      <div class="count">3</div>
+    </a>
+  </div>
+  <div class="right">
+    <div class="title">
+            <a href="https://hackr.io/tutorial/introduction-to-computer-science-using-java" class="tutorial-title" title="Introduction to Computer Science using Java">Introduction to Computer Science using Java</a>
+      <a href="https://hackr.io/tutorial/introduction-to-computer-science-using-java" class="tutorial-domain" title="Introduction to Computer Science using Java">(chortle.ccsu.edu)</a>
+    </div>
+    <div class="footer">
+      <div class="footer-actions">
+        <div class="action save">
+          <a href="https://hackr.io/tutorial/introduction-to-computer-science-using-java?modal=save" class="btn"><i class="fa fa-bookmark"></i>&nbsp;Save</a>
+        </div>
+        <div class="action comments">
+          <a href="https://hackr.io/tutorial/introduction-to-computer-science-using-java" class="btn"><i class="fa fa-comment"></i>&nbsp;Comments 
+                      </a>
+        </div>
+      </div>
+      <div class="btm-footer">
+        <div class="action author">
+          <span class="txt">Submitted by</span>
+                      <a href="https://hackr.io/alex-brannson">Alex</a>
+                  </div>
+        <div class="tags action">
+                      <span class="label label-xs label-success">Free</span>
+                      <span class="label label-xs label-primary">Book</span>
+                      <span class="label label-xs label-orange">Beginner</span>
+                  </div>
+      </div>
+    </div>
+  </div>
+</div>          <div class="list-item">
+  <div class="left">
+    <a href="https://hackr.io/tutorial/intro-to-computer-science-udacity" class="vote-btn">
+      <div class="arrow"><i class="fa fa-caret-up"></i></div>
+      <div class="count">3</div>
+    </a>
+  </div>
+  <div class="right">
+    <div class="title">
+            <a href="https://hackr.io/tutorial/intro-to-computer-science-udacity" class="tutorial-title" title="Intro to Computer Science - Udacity">Intro to Computer Science - Udacity</a>
+      <a href="https://hackr.io/tutorial/intro-to-computer-science-udacity" class="tutorial-domain" title="Intro to Computer Science - Udacity">(udacity.com)</a>
+    </div>
+    <div class="footer">
+      <div class="footer-actions">
+        <div class="action save">
+          <a href="https://hackr.io/tutorial/intro-to-computer-science-udacity?modal=save" class="btn"><i class="fa fa-bookmark"></i>&nbsp;Save</a>
+        </div>
+        <div class="action comments">
+          <a href="https://hackr.io/tutorial/intro-to-computer-science-udacity" class="btn"><i class="fa fa-comment"></i>&nbsp;Comments 
+                      </a>
+        </div>
+      </div>
+      <div class="btm-footer">
+        <div class="action author">
+          <span class="txt">Submitted by</span>
+                      <a href="https://hackr.io/bill-mexas">Bill</a>
+                  </div>
+        <div class="tags action">
+                      <span class="label label-xs label-success">Free</span>
+                  </div>
+      </div>
+    </div>
+  </div>
+</div>          <div class="list-item">
+  <div class="left">
+    <a href="https://hackr.io/tutorial/computer-science-162-by-ucberkeley" class="vote-btn">
+      <div class="arrow"><i class="fa fa-caret-up"></i></div>
+      <div class="count">2</div>
+    </a>
+  </div>
+  <div class="right">
+    <div class="title">
+            <a href="https://hackr.io/tutorial/computer-science-162-by-ucberkeley" class="tutorial-title" title="Computer Science 162 by UCBerkeley">Computer Science 162 by UCBerkeley</a>
+      <a href="https://hackr.io/tutorial/computer-science-162-by-ucberkeley" class="tutorial-domain" title="Computer Science 162 by UCBerkeley">(youtube.com)</a>
+    </div>
+    <div class="footer">
+      <div class="footer-actions">
+        <div class="action save">
+          <a href="https://hackr.io/tutorial/computer-science-162-by-ucberkeley?modal=save" class="btn"><i class="fa fa-bookmark"></i>&nbsp;Save</a>
+        </div>
+        <div class="action comments">
+          <a href="https://hackr.io/tutorial/computer-science-162-by-ucberkeley" class="btn"><i class="fa fa-comment"></i>&nbsp;Comments 
+                      </a>
+        </div>
+      </div>
+      <div class="btm-footer">
+        <div class="action author">
+          <span class="txt">Submitted by</span>
+                      <a href="https://hackr.io/ajay-kumar-chhimpa">Ajay</a>
+                  </div>
+        <div class="tags action">
+                      <span class="label label-xs label-success">Free</span>
+                      <span class="label label-xs label-danger">Video</span>
+                  </div>
+      </div>
+    </div>
+  </div>
+</div>          <div class="list-item">
+  <div class="left">
+    <a href="https://hackr.io/tutorial/the-essential-web-developer-course" class="vote-btn">
+      <div class="arrow"><i class="fa fa-caret-up"></i></div>
+      <div class="count">2</div>
+    </a>
+  </div>
+  <div class="right">
+    <div class="title">
+            <a href="https://hackr.io/tutorial/the-essential-web-developer-course" class="tutorial-title" title="The Essential Web Developer Course">The Essential Web Developer Course</a>
+      <a href="https://hackr.io/tutorial/the-essential-web-developer-course" class="tutorial-domain" title="The Essential Web Developer Course">(upskillcourses.com)</a>
+    </div>
+    <div class="footer">
+      <div class="footer-actions">
+        <div class="action save">
+          <a href="https://hackr.io/tutorial/the-essential-web-developer-course?modal=save" class="btn"><i class="fa fa-bookmark"></i>&nbsp;Save</a>
+        </div>
+        <div class="action comments">
+          <a href="https://hackr.io/tutorial/the-essential-web-developer-course" class="btn"><i class="fa fa-comment"></i>&nbsp;Comments 
+                      </a>
+        </div>
+      </div>
+      <div class="btm-footer">
+        <div class="action author">
+          <span class="txt">Submitted by</span>
+                      <a href="https://hackr.io/mau-boy">Mau</a>
+                  </div>
+        <div class="tags action">
+                      <span class="label label-xs label-success">Free</span>
+                  </div>
+      </div>
+    </div>
+  </div>
+</div>          <div class="list-item">
+  <div class="left">
+    <a href="https://hackr.io/tutorial/html-css-and-javascript-for-web-developers" class="vote-btn">
+      <div class="arrow"><i class="fa fa-caret-up"></i></div>
+      <div class="count">2</div>
+    </a>
+  </div>
+  <div class="right">
+    <div class="title">
+            <a href="https://hackr.io/tutorial/html-css-and-javascript-for-web-developers" class="tutorial-title" title="HTML, CSS, and Javascript for Web Developers">HTML, CSS, and Javascript for Web Developers</a>
+      <a href="https://hackr.io/tutorial/html-css-and-javascript-for-web-developers" class="tutorial-domain" title="HTML, CSS, and Javascript for Web Developers">(coursera.org)</a>
+    </div>
+    <div class="footer">
+      <div class="footer-actions">
+        <div class="action save">
+          <a href="https://hackr.io/tutorial/html-css-and-javascript-for-web-developers?modal=save" class="btn"><i class="fa fa-bookmark"></i>&nbsp;Save</a>
+        </div>
+        <div class="action comments">
+          <a href="https://hackr.io/tutorial/html-css-and-javascript-for-web-developers" class="btn"><i class="fa fa-comment"></i>&nbsp;Comments 
+                      </a>
+        </div>
+      </div>
+      <div class="btm-footer">
+        <div class="action author">
+          <span class="txt">Submitted by</span>
+                      <a href="https://hackr.io/sravya-raj">Sravya</a>
+                  </div>
+        <div class="tags action">
+                      <span class="label label-xs label-success">Free</span>
+                      <span class="label label-xs label-danger">Video</span>
+                  </div>
+      </div>
+    </div>
+  </div>
+</div>          <div class="list-item">
+  <div class="left">
+    <a href="https://hackr.io/tutorial/html-and-css-for-beginners-build-a-website" class="vote-btn">
+      <div class="arrow"><i class="fa fa-caret-up"></i></div>
+      <div class="count">1</div>
+    </a>
+  </div>
+  <div class="right">
+    <div class="title">
+            <a href="https://hackr.io/tutorial/html-and-css-for-beginners-build-a-website" class="tutorial-title" title="HTML and CSS for Beginners - Build a Website">HTML and CSS for Beginners - Build a Website</a>
+      <a href="https://hackr.io/tutorial/html-and-css-for-beginners-build-a-website" class="tutorial-domain" title="HTML and CSS for Beginners - Build a Website">(udemy.com)</a>
+    </div>
+    <div class="footer">
+      <div class="footer-actions">
+        <div class="action save">
+          <a href="https://hackr.io/tutorial/html-and-css-for-beginners-build-a-website?modal=save" class="btn"><i class="fa fa-bookmark"></i>&nbsp;Save</a>
+        </div>
+        <div class="action comments">
+          <a href="https://hackr.io/tutorial/html-and-css-for-beginners-build-a-website" class="btn"><i class="fa fa-comment"></i>&nbsp;Comments 
+                      </a>
+        </div>
+      </div>
+      <div class="btm-footer">
+        <div class="action author">
+          <span class="txt">Submitted by</span>
+                      <a href="https://hackr.io/magesh-waran">Magesh</a>
+                  </div>
+        <div class="tags action">
+                      <span class="label label-xs label-orange">Beginner</span>
+                      <span class="label label-xs label-teal">Paid</span>
+                      <span class="label label-xs label-danger">Video</span>
+                  </div>
+      </div>
+    </div>
+  </div>
+</div>      </div>
+</div>    
+          <a href="https://hackr.io/tutorials/learn-intro-to-programming?page=2" class="view-all-btn">View all Tutorials</a>
+      </div>
+
+  <div class="related-topics">
+  <div class="heading">You might also be interested in :</div>
+          <a href="https://www.google.co.in/amp/s/hackr.io/tutorials/learn-python/amp">
+        <amp-img src="https://hackr.io/tutorials/learn-python/svg/python_logo" width="40"
+        height="40"></amp-img>
+        <span class="txt">Python</span>
+        </a>
+          <a href="https://www.google.co.in/amp/s/hackr.io/tutorials/learn-javascript/amp">
+        <amp-img src="https://hackr.io/tutorials/learn-javascript/svg/javascript_logo" width="40"
+        height="40"></amp-img>
+        <span class="txt">JavaScript</span>
+        </a>
+          <a href="https://www.google.co.in/amp/s/hackr.io/tutorials/learn-android-development/amp">
+        <amp-img src="https://hackr.io/tutorials/learn-android-development/svg/android-development_logo" width="40"
+        height="40"></amp-img>
+        <span class="txt">Android Development</span>
+        </a>
+          <a href="https://www.google.co.in/amp/s/hackr.io/tutorials/learn-software-design-patterns/amp">
+        <amp-img src="https://hackr.io/tutorials/learn-software-design-patterns/svg/software-design-patterns_logo" width="40"
+        height="40"></amp-img>
+        <span class="txt">Design Patterns</span>
+        </a>
+          <a href="https://www.google.co.in/amp/s/hackr.io/tutorials/learn-machine-learning-ml/amp">
+        <amp-img src="https://hackr.io/tutorials/learn-machine-learning-ml/svg/machine-learning-ml_logo" width="40"
+        height="40"></amp-img>
+        <span class="txt">Machine Learning</span>
+        </a>
+          <a href="https://www.google.co.in/amp/s/hackr.io/tutorials/learn-kotlin/amp">
+        <amp-img src="https://hackr.io/tutorials/learn-kotlin/svg/kotlin_logo" width="40"
+        height="40"></amp-img>
+        <span class="txt">Kotlin</span>
+        </a>
+      </div>
+</div>
+  <footer>
+  <div class="wrapper">    
+    <div class="footer-holder">
+      <div class="links">
+        <ul class="fx-links">
+          <li><a href="https://hackr.io/about">About Us</a></li>
+          <li><a href="https://hackr.io/latest">Latest Tutorials</a></li>
+          <li><a href="https://design.instructy.io/" target="_blank">Design Tutorials</a></li>
+          <li><a href="https://hackr.io/help">Help &amp; FAQ</a></li>
+          <li><a href="https://hackr.io?model=feedback">Feedback</a></li>
+        </ul>
+      </div>
+      <div class="social-links links">
+        <ul class="fx-links">
+          <li><a href="https://www.facebook.com/hackr.io" target="_blank" rel="nofollow" class="facebook"><i class="fa fa-facebook"></i>Facebook</a></li>
+          <li><a href="https://twitter.com/hackrio_" target="_blank" rel="nofollow" class="twitter"><i class="fa fa-twitter"></i>Twitter</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</footer>
+</body>
+</html>

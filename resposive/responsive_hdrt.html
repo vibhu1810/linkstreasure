@@ -1,0 +1,408 @@
+<!doctype html>
+<html amp lang="en">
+<head>
+    <meta charset="utf-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Learn Android Development - [2018] Most Upvoted Tutorials |  </title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="normalize.css">
+<link rel="stylesheet" href="responsie_style.css">
+
+
+</head>
+<body class="topic-page">
+<!-------------header----------------------->
+  <div class="top-container">
+  <h1>Scroll Down</h1>
+  <p>Scroll down to see the sticky effect.</p>
+</div> 
+<!------------------------------------------>
+<!------navigation bar----------->
+
+<div class="header" id="myHeader">
+<button href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </button>
+  <form class="res-search" action="/action_page.php">
+  <input type="text" placeholder="Search.." name="search2">
+  <button type="submit"><i class="fa fa-search"></i></button>
+</form>
+<div class="side" id="sidemenu">
+ <button href="javascript:void(0);" class="close_btn" onclick="myFunction()">
+    <i class="fa fa-close"></i>
+  </button> 
+<script>
+var x = document.getElementById("myHeader");
+var y = document.getElementsByClassName("side");
+var r= "header";
+var sticky = x.offsetTop;
+var l=0;
+function myFunction() {
+    
+l=1;
+console.log(l);
+	if (x.className === r) {
+        x.className += " responsive";
+		y[0].style.width="250px";
+		l=1;7
+    } else {
+        x.className =r;
+		y[0].style.width="0px";
+		l=0;
+    }
+}
+console.log(l);
+window.onscroll = function() {mFunction()};
+function mFunction() {
+  if (window.pageYOffset >= sticky) {
+    x.classList.add("sticky");
+	r="header sticky";
+  } else {
+    x.classList.remove("sticky");
+	r="header";
+  }
+}
+window.addEventListener("resize", function(){ 
+console.log(l);
+if(l==0)
+{
+var z = document.getElementsByClassName("side");
+console.log(l);
+z[0].style.width ="intial";
+}
+});
+</script>  
+<button class="home-btn"><i class="fa fa-home"></i></button>
+<div class="ctgry-dropdown">
+  <button class="ctgry-dropbtn"><i class="fa fa-th"></i></button>
+  <div class="ctgry-dropdown-content">
+    <a href="#">Link 1</a>
+    <a href="#">Link 2</a>
+    <a href="#">Link 3</a>
+	<a href="#">Link 4</a>
+    <a href="#">Link 5</a>
+    <a href="#">Link 6</a>
+  </div>
+</div>
+<!------------------request course---------------->
+<div class="rqc-dropdown">
+  <button class="rqc-dropbtn">Request Course <i class="fa fa-caret-down"></i></button>
+  <div class="rqc-dropdown-content" >
+    <a href="#">Request New Course</a>
+    <a href="#">Request Course Update</a>
+  </div>
+</div>
+   <!---------search box--------------------------->
+  <form class="example" action="/action_page.php">
+  <input type="text" placeholder="Search.." name="search2">
+  <button type="submit"><i class="fa fa-search"></i></button>
+</form>
+
+
+<!--------------------submit------------------------->
+<button id="submit_btn" onclick="document.getElementById('id01').style.display='block'">Submit</button>
+<div id="id01" class="submit_modal">
+  
+  <form class="submit_modal-content animate" method="post" action >
+    <div class="imgcontainer">
+      <span onclick="document.getElementById('id01').style.display='none'" class="submit_close" title="Close Modal">&times;</span>
+      <img src="capture.png" alt="Avatar" class="submit_avatar"></img>
+    </div>
+
+    <div class="submit-container">
+	<center><h1>Submit Course/Tutorial</h1></center>
+	<center>Paste the course/tutorial link below:</center>
+	
+	<input type="text" name="siteurl" placeholder="URL OF THE TUTORIAL" />
+	<style>
+	h3{background-color:gray;}</style>
+	<h3  style="">Tell us more about this course/tutorial (optional)*</h3>
+	 
+    <label for="lang"><b>Programming language/<br/>Framework/Library:</b></label>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	<select  style="width:25%; height:25px; border-radius:8px;placeholder:Eg.python,Angular;"name="lang">
+	<option value=" "></option>
+    <option value="Python">Python</option>
+    <option value="C++">C++</option>
+    <option value="Angular">Angular</option>
+    <option value="C#">C#</option>
+    </select></br></br></br>
+
+      <label for="psw"><b>Tag:</b></label>
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+	  <input type="radio" name="price" value="free">Free
+      <input type="radio" name="price" value="paid">Paid
+	  <input type="radio" name="type" value="video">Video
+      <input type="radio" name="type" value="book">Book
+	  </br></br></br>
+	  
+	   <label for="psw"><b>This course is for:</b></label>
+	   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+	   <input type="radio" name="level" value="beginner"> Beginner
+       <input type="radio" name="level" value="advanced">Advanced  
+       <input type="radio" name="level" value="expertise"> Expertise
+	   </br></br></br>
+	   
+	    <label for="psw"><b>Language:</b></label>
+	  a  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+	    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+		&nbsp;&nbsp;&nbsp;&nbsp; 
+	    <input type="radio" name="language" value="hindi">Hindi
+        <input type="radio" name="language" value="english ">English 
+		<input type="radio" name="language" value="chiness">chiness 
+   
+        
+      <button id="submit_btn_in"type="submit" name ="submit">SUBMIT TUTORIAL</button>
+      <label>
+        <input type="checkbox" checked="checked" name="remember"> Remember me
+      </label>
+    </div>
+
+    <div class="submit-container" style="background-color:#f1f1f1">
+      <button type="button" onclick="document.getElementById('id01').style.display='none'" class="submit_cancelbtn">Cancel</button>
+    <span class="signin"> <a href="#">SIGN IN</a></span>
+    </div>
+  </form>
+</div>
+
+
+
+
+</div>
+</div>
+<p>CSS Layout - The position Property
+The position property specifies the type of positioning method used for an element (static, relative, fixed, absolute or sticky).
+
+The position Property
+The position property specifies the type of positioning method used for an element.
+\
+There are five different position values:
+
+static
+relative
+fixed
+absolute
+sticky
+Elements are then positioned using the top, bottom, left, and right properties. However, these properties will not work unless the position property is set first. They also work differently depending on the position value.
+
+position: static;
+HTML elements are positioned static by default.
+
+Static positioned elements are not affected by the top, bottom, left, and right properties.
+
+An element with position: static; is not positioned in any special way; it is always positioned according to the normal flow of the page:
+
+This element has position: static;
+Here is the CSS that is used:
+
+Example
+div.static {
+    position: static;
+    border: 3px solid #73AD21;
+}
+position: relative;
+An element with position: relative; is positioned relative to its normal position.
+
+Setting the top, right, bottom, and left properties of a relatively-positioned element will cause it to be adjusted away from its normal position. Other content will not be adjusted to fit into any gap left by the element.
+
+This  element has position: relative;
+Here is the CSS that is used:
+
+Example
+div.relative {
+    position: relative;
+    left: 30px;
+    border: 3px solid #73AD21;
+}
+ 
+position: fixed;
+An element with position: fixed; is positioned relative to the viewport, which means it always stays in the same place even if the page is scrolled. The top, right, bottom, and left properties are used to position the element.
+
+A fixed element does not leave a gap in the page where it would normally have been located.
+
+Notice the fixed element in the lower-right corner of the page. Here is the CSS that is used:
+
+Example
+div.fixed {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 300px;
+    border: 3px solid #73AD21;
+}
+This  element has position: fixed;
+position: absolute;
+An element with position: absolute; is positioned relative to the nearest positioned ancestor (instead of positioned relative to the viewport, like fixed).
+
+However; if an absolute positioned element has no positioned ancestors, it uses the document body, and moves along with page scrolling.
+
+Note: A "positioned" element is one whose position is anything except static.
+
+Here is a simple example:
+
+This element has position: relative; This element has position: absolute;
+Here is the CSS that is used:
+
+Example
+div.relative {
+    position: relative;
+    width: 400px;
+    height: 200px;
+    border: 3px solid #73AD21;
+} 
+
+div.absolute {
+    position: absolute;
+    top: 80px;
+    right: 0;
+    width: 200px;
+    height: 100px;
+    border: 3px solid #73AD21;
+}
+position: sticky;
+An element with position: sticky; is positioned based on the user's scroll position.
+
+A sticky element toggles between relative and fixed, depending on the scroll position. It is positioned relative until a given offset position is met in the viewport - then it "sticks" in place (like position:fixed).
+
+
+Note: Internet Explorer, Edge 15 and earlier versions do not support sticky positioning. Safari requires a -webkit- prefix (see example below). You must also specify at least one of top, right, bottom or left for sticky positioning to work.
+
+In this example, the sticky element sticks to the top of the page (top: 0), when you reach its scroll position.
+
+Example
+div.sticky {
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+    background-color: green;
+    border: 2px solid #4CAF50;
+}
+Overlapping Elements
+When elements are positioned, they can overlap other elements.
+
+The z-index property specifies the stack order of an element (which element should be placed in front of, or behind, the others).
+
+An element can have a positive or negative stack order:
+
+This is a headingBecause the image has a z-index of -1, it will be placed behind the text.
+Example
+img {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: -1;
+}
+An element with greater stack order is always in front of an element with a lower stack order.
+
+Note: If two positioned elements overlap without a z-index specified, the element positioned last in the HTML code will be shown on top.
+
+Positioning Text In an Image
+How to position text over an image:
+
+Example
+Norway Bottom LeftTop LeftTop RightBottom RightCentered
+Try it Yourself:
+
+    
+More Examples
+Set the shape of an element
+This example demonstrates how to set the shape of an element. The element is clipped into this shape, and displayed.
+
+Test Yourself with Exercises!
+        
+
+All CSS Positioning Properties
+Property	Description
+bottom	Sets the bottom margin edge for a positioned box
+clip	Clips an absolutely positioned element
+left	Sets the left margin edge for a positioned box
+position	Specifies the type of positioning for an element
+right	Sets the right margin edge for a positioned box
+top	Sets the top margin edge for a positioned box
+z-index	Sets the stack order of an element
+
+
+COLOR PICKER
+ colorpicker
+HOW TO
+Tabs
+Dropdowns
+Accordions
+Convert Weights
+Animated Buttons
+Side Navigation
+Top Navigation
+Modal Boxes
+Progress Bars
+Parallax
+Login Form
+HTML Includes
+Google Maps
+Range Sliders
+Tooltips
+Slideshow
+Filter List
+Sort List
+SHARE
+ 
+
+CERTIFICATES
+HTML, CSS, JavaScript, PHP, jQuery, Bootstrap and XML.
+
+ 
+REPORT ERROR PRINT PAGE FORUM ABOUT
+Top 10 Tutorials
+HTML Tutorial
+CSS Tutorial
+JavaScript Tutorial
+How To Tutorial
+W3.CSS Tutorial
+Bootstrap Tutorial
+SQL Tutorial
+PHP Tutorial
+jQuery Tutorial
+Angular Tutorial
+Top 10 References
+HTML Reference
+CSS Reference
+JavaScript Reference
+W3.CSS Reference
+Bootstrap Reference
+SQL Reference
+PHP Reference
+HTML Colors
+jQuery Reference
+AngularJS Reference
+Top 10 Examples
+HTML Examples
+CSS Examples
+JavaScript Examples
+How To Examples
+W3.CSS Examples
+Bootstrap Examples
+PHP Examples
+jQuery Examples
+Angular Examples
+XML Examples
+Web Certificates
+HTML Certificate
+CSS Certificate
+</p>
+<footer>
+                    <div class="opt">
+					<a href="#">Home</a>
+					<a href="#">About Us</a>
+					<a href="#">Contact Us</a>
+					<a href="#">Help & FAQ</a>
+					<a href="#">Feedback</a>
+					</div>
+					<a href="https://www.facebook.com/mytutorial.links.5"> <img src ="new/facebook.png" alt="facebook logo" class="social-icon"> </a>
+					<a href="https://www.facebook.com/mytutorial.links.5"> <img src="new/twitter.png" alt="twitter logo"class="social-icon"></a>
+					<p>&copy;<?php echo date("Y");?> @mytutoriallinks.com</p>
+   </footer> 	 
+</body>
+</html>

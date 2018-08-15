@@ -1,0 +1,512 @@
+
+* {
+	outline: 0
+}
+
+body {
+	+: -
+	font-family:
+	-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif;
+	+: --
+	-webkit-font-smoothing: antialiased;
+	+:
+	---;
+}
+
+
+.label1 {
+	display: inline-block;
+	padding: 0px 10px;
+	line-height: 2.5;
+	color: #fff;
+	text-align: center;
+	white-space: nowrap;
+	vertical-align: baseline;
+	border-radius: .25em;
+	margin:5px;
+}
+
+.label-xs {
+	font-size: 15px;
+	font-weight: 700
+}
+
+.label-danger,
+.label-info,
+.label-primary,
+.label-success {
+	background: lightgray;
+	color: red;
+}
+
+
+
+
+
+.topic-page{background-color:#fafafa}
+/*---------------------------header----------------------------------*/
+
+.top-container {
+  background-color: #f1f1f1;
+  padding: 10px;
+  text-align: center;
+}
+
+.header {
+	height:65px;
+  padding: 0px px;
+  background: #555;
+  width:100%;
+  
+}
+
+.content {
+  padding: 16px;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index:10;
+}
+
+.sticky + .content {
+  padding-top: 102px;
+}
+.icon{
+	float:left;
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 16px;
+    font-size: 19px;
+    border: none;
+    cursor: pointer;
+	margin:6px 2px 6px 10px;
+	display:none;
+	}
+	
+	/*--------------------------------on responsive search box-----------------------------------------------------*/
+
+
+/* Style the search field */
+form.res-search input[type=text] {
+  padding: 12px 10px;
+  font-size: 19px;
+  border: 1px solid grey;
+  float: left;
+  width: 85%;
+  background: #f1f1f1;
+    box-sizing: border-box;
+
+}
+.res-search{
+	width:50%; 
+	margin:5px 10%;
+	float:left;
+	display:none;
+}
+/* Style the submit button */
+form.res-search button {
+  float: left;
+  width: 15%;
+  padding: 12px 5px;
+  background: #2196F3;
+  color: white;
+  font-size: 19px;
+  border: 1px solid grey;
+  border-left: none; /* Prevent double borders */
+  cursor: pointer;
+    box-sizing: border-box;
+
+}
+
+form.res-search button:hover {
+  background: #0b7dda;
+}
+
+/* Clear floats */
+form.res-search::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/*---------------home-------------------------------*/
+.home-btn {
+	float:left;
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 16px;
+    font-size: 19px;
+    border: none;
+    cursor: pointer;
+	margin:6px 2px 6px 10px;
+}
+.home-btn:hover{
+    background-color: #3e8e41;
+}
+
+
+/*---------------------category--------------------------------*/
+.ctgry-dropbtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 16px;
+    font-size: 19px;
+    border: none;
+    cursor: pointer; 
+	
+}
+
+.ctgry-dropdown {
+	float:left;
+    position:relative;
+    display:inline-block;
+	margin:6px 2px;
+}
+
+.ctgry-dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.ctgry-dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.ctgry-dropdown-content a:hover {background-color: #f1f1f1;}
+
+.ctgry-dropdown:hover .ctgry-dropdown-content {
+    display: block;
+}
+
+.ctgry-dropdown:hover .ctgry-dropbtn {
+    background-color: #3e8e41;
+}
+/*---------------------------------------------------------------*/
+/*------------------------------request course--------------------*/
+.rqc-dropbtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 16px;
+    font-size: 19px;
+    border: none;
+    cursor: pointer;
+
+}
+
+.rqc-dropdown {
+	float:left;
+    position: relative;
+    display: inline-block;
+	margin:6px 2px;
+
+}
+
+.rqc-dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.rqc-dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.rqc-dropdown-content a:hover {background-color: #f1f1f1}
+
+.rqc-dropdown:hover .rqc-dropdown-content {
+    display: block;
+}
+
+.rqc-dropdown:hover .rqc-dropbtn {
+    background-color: #3e8e41;
+}
+/*----------------------------------------------------*/
+/*--------------------------------search box-----------------------------------------------------*/
+
+
+/* Style the search field */
+form.example input[type=text] {
+  padding: 12px 10px;
+  font-size: 19px;
+  border: 1px solid grey;
+  float: left;
+  width: 85%;
+  background: #f1f1f1;
+    box-sizing: border-box;
+
+}
+.example{
+	width:50%; 
+	margin:5px 2px;
+	float:left;
+}
+/* Style the submit button */
+form.example button {
+  float: left;
+  width: 15%;
+  padding: 12px 5px;
+  background: #2196F3;
+  color: white;
+  font-size: 19px;
+  border: 1px solid grey;
+  border-left: none; /* Prevent double borders */
+  cursor: pointer;
+    box-sizing: border-box;
+
+}
+
+form.example button:hover {
+  background: #0b7dda;
+}
+
+/* Clear floats */
+form.example::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/*------------------------------------------------------------------------------------------*/
+/*-----------------------------submit------------*/
+
+
+/* Full-width input fields */
+form.submit_modal-content input[type=text], .submit_modal-conte input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc		;
+    box-sizing: border-box;
+}
+
+/* Set a style for submit button */
+#submit_btn {
+   background-color: #4CAF50;
+	float:left;
+    color: white;
+    padding: 12px 16px;
+	font-size:19px;
+    margin:6px 2px;
+    border: none;
+    cursor: pointer;
+	width:auto;
+}
+#submit_btn:hover ,.submit_cancelbtn:hover{
+    opacity: 0.8;
+}
+
+/* Extra styles for the cancel button */
+.submit_cancelbtn {
+	border: none;
+    cursor: pointer;
+	margin: 8px 0;
+	color: white;
+    width: auto;
+    padding: 10px 18px;
+    background-color: #f44336;
+}
+
+/* Center the image and position the close button */
+.imgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
+    position: relative;
+}
+
+.submit_avatar {
+    width: 90px;
+    border-radius: 50%;
+}
+
+.submit-container {
+    padding: 16px;
+}
+
+span.psw {
+    float: right;
+    padding-top: 16px;
+}
+
+/* The Modal (background) */
+.submit_modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    padding-top: 60px;
+}
+
+/* Modal Content/Box */
+.submit_modal-content {
+	font-family: Arial, Helvetica, sans-serif; 
+	border: 3px solid #f1f1f1; 
+	position:relative;
+	margin:auto;
+	z-index:1;
+    background-color: #fefefe;
+    margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+    border: 1px solid #888;
+    width: 80%; /* Could be more or less, depending on screen size */
+}
+/* Set a style for inner submit button */
+#submit_btn_in {
+   background-color: #4CAF50;
+	float:left;
+    color: white;
+    padding: 12px 16px;
+	font-size:19px;
+    margin:6px 2px;
+    border: none;
+    cursor: pointer;
+	width:100%;
+}
+/* The Close Button (x) */
+.submit_close {
+    position: absolute;
+    right: 25px;
+    top: 0;
+    color: #000;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.submit_close:hover,
+.submit_close:focus {
+    color: red;
+    cursor: pointer;
+}
+
+/* Add Zoom Animation */
+.animate {
+    -webkit-animation: animatezoom 0.6s;
+    animation: animatezoom 0.6s
+}
+
+@-webkit-keyframes animatezoom {
+    from {-webkit-transform: scale(0)} 
+    to {-webkit-transform: scale(1)}
+}
+
+@keyframes animatezoom {
+    from {transform: scale(0)} 
+    to {transform: scale(1)}
+}
+.close_btn {
+	display:none;
+}
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+    span.psw {
+       display: block;
+       float: none;
+    }
+    .submit_cancelbtn {
+       width: 100%;
+    }
+}
+/*------------------------------------------------------*/
+@media screen and (max-width: 767px) {	
+.home-btn,.ctgry-dropdown,.rqc-dropdown,#submit_btn{
+	display:none;
+}
+.icon{
+	display:block;
+	 float: left;
+}
+.res-search{
+	display:block;
+}
+}
+
+@media screen and (max-width: 767px) {
+.header.responsive {position: relative;}
+  
+  .header.responsive .home-btn,
+  .header.responsive .ctgry-dropdown,
+  .header.responsive .rqc-dropdown,
+  .header.responsive #submit_btn{
+    float: none;
+    display: block;
+    text-align: left;
+    width:100%;
+	margin:2px 0px;
+}
+  .header.responsive .rqc-dropbtn,.ctgry-dropbtn{
+	  width:100%;
+	  text-align: left;
+  }
+    .example{
+		display:none;
+	}
+	.close_btn {
+    position: absolute;
+    top: 0;
+	 right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+	display:block;
+  }
+  .side{
+	  height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+  }
+  
+}
+/*-------------------footer------------------------------*/
+footer{
+			font-size:0.75em;
+			padding-top:30px;
+			text-align:center;
+			clear: both;
+			color:white;
+			border-top:solid 1px gray;
+			background-color:lightblue;
+		}
+footer .opt a{
+	display:inline-block;
+	margin:10px;
+	border:solid 1px blue;
+	border-radius:5px;
+	padding:2px 5px;
+	color:black;
+	text-decoration:none;
+}
+footer .opt a:hover{
+	color:blue;
+}
+		.social-icon{
+			width:30px;
+			height:30px;
+			margin:5px;
+		}

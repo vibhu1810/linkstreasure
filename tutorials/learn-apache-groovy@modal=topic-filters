@@ -1,0 +1,1436 @@
+<!DOCTYPE html>
+<html itemscope itemtype="http://schema.org/WebPage" lang="en">
+<head>
+    <meta charset="utf-8">
+    <link rel="apple-touch-icon" sizes="180x180" href="https://hackr.io/assets/images/code-images/code-apple-touch-icon.png">
+    <link rel="apple-touch-icon-precomposed apple-touch-icon" href="https://hackr.io/assets/images/code-images/code-apple-touch-icon-precomposed.png">
+    <link rel="icon" type="image/png" href="https://hackr.io/assets/images/code-images/code-favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="https://hackr.io/assets/images/code-images/code-favicon-16x16.png" sizes="16x16">
+    <link rel="manifest" href="https://hackr.io/manifest.json">
+    <link rel="mask-icon" href="https://hackr.io/assets/images/code-images/code-safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="theme-color" content="#3C7DC0" />
+    
+    <!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-WTX6Q3P');</script>
+<!-- End Google Tag Manager -->
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"><script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(e,t,n){function r(n){if(!t[n]){var o=t[n]={exports:{}};e[n][0].call(o.exports,function(t){var o=e[n][1][t];return r(o||t)},o,o.exports)}return t[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<n.length;o++)r(n[o]);return r}({1:[function(e,t,n){function r(){}function o(e,t,n){return function(){return i(e,[f.now()].concat(u(arguments)),t?null:this,n),t?void 0:this}}var i=e("handle"),a=e(2),u=e(3),c=e("ee").get("tracer"),f=e("loader"),s=NREUM;"undefined"==typeof window.newrelic&&(newrelic=s);var p=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],d="api-",l=d+"ixn-";a(p,function(e,t){s[t]=o(d+t,!0,"api")}),s.addPageAction=o(d+"addPageAction",!0),s.setCurrentRouteName=o(d+"routeName",!0),t.exports=newrelic,s.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(e,t){var n={},r=this,o="function"==typeof t;return i(l+"tracer",[f.now(),e,n],r),function(){if(c.emit((o?"":"no-")+"fn-start",[f.now(),r,o],n),o)try{return t.apply(this,arguments)}catch(e){throw c.emit("fn-err",[arguments,this,e],n),e}finally{c.emit("fn-end",[f.now()],n)}}}};a("setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,t){m[t]=o(l+t)}),newrelic.noticeError=function(e){"string"==typeof e&&(e=new Error(e)),i("err",[e,f.now()])}},{}],2:[function(e,t,n){function r(e,t){var n=[],r="",i=0;for(r in e)o.call(e,r)&&(n[i]=t(r,e[r]),i+=1);return n}var o=Object.prototype.hasOwnProperty;t.exports=r},{}],3:[function(e,t,n){function r(e,t,n){t||(t=0),"undefined"==typeof n&&(n=e?e.length:0);for(var r=-1,o=n-t||0,i=Array(o<0?0:o);++r<o;)i[r]=e[t+r];return i}t.exports=r},{}],4:[function(e,t,n){t.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(e,t,n){function r(){}function o(e){function t(e){return e&&e instanceof r?e:e?c(e,u,i):i()}function n(n,r,o,i){if(!d.aborted||i){e&&e(n,r,o);for(var a=t(o),u=m(n),c=u.length,f=0;f<c;f++)u[f].apply(a,r);var p=s[y[n]];return p&&p.push([b,n,r,a]),a}}function l(e,t){v[e]=m(e).concat(t)}function m(e){return v[e]||[]}function w(e){return p[e]=p[e]||o(n)}function g(e,t){f(e,function(e,n){t=t||"feature",y[n]=t,t in s||(s[t]=[])})}var v={},y={},b={on:l,emit:n,get:w,listeners:m,context:t,buffer:g,abort:a,aborted:!1};return b}function i(){return new r}function a(){(s.api||s.feature)&&(d.aborted=!0,s=d.backlog={})}var u="nr@context",c=e("gos"),f=e(2),s={},p={},d=t.exports=o();d.backlog=s},{}],gos:[function(e,t,n){function r(e,t,n){if(o.call(e,t))return e[t];var r=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,t,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return e[t]=r,r}var o=Object.prototype.hasOwnProperty;t.exports=r},{}],handle:[function(e,t,n){function r(e,t,n,r){o.buffer([e],r),o.emit(e,t,n)}var o=e("ee").get("handle");t.exports=r,r.ee=o},{}],id:[function(e,t,n){function r(e){var t=typeof e;return!e||"object"!==t&&"function"!==t?-1:e===window?0:a(e,i,function(){return o++})}var o=1,i="nr@id",a=e("gos");t.exports=r},{}],loader:[function(e,t,n){function r(){if(!x++){var e=h.info=NREUM.info,t=d.getElementsByTagName("script")[0];if(setTimeout(s.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&t))return s.abort();f(y,function(t,n){e[t]||(e[t]=n)}),c("mark",["onload",a()+h.offset],null,"api");var n=d.createElement("script");n.src="https://"+e.agent,t.parentNode.insertBefore(n,t)}}function o(){"complete"===d.readyState&&i()}function i(){c("mark",["domContent",a()+h.offset],null,"api")}function a(){return E.exists&&performance.now?Math.round(performance.now()):(u=Math.max((new Date).getTime(),u))-h.offset}var u=(new Date).getTime(),c=e("handle"),f=e(2),s=e("ee"),p=window,d=p.document,l="addEventListener",m="attachEvent",w=p.XMLHttpRequest,g=w&&w.prototype;NREUM.o={ST:setTimeout,SI:p.setImmediate,CT:clearTimeout,XHR:w,REQ:p.Request,EV:p.Event,PR:p.Promise,MO:p.MutationObserver};var v=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1071.min.js"},b=w&&g&&g[l]&&!/CriOS/.test(navigator.userAgent),h=t.exports={offset:u,now:a,origin:v,features:{},xhrWrappable:b};e(1),d[l]?(d[l]("DOMContentLoaded",i,!1),p[l]("load",r,!1)):(d[m]("onreadystatechange",o),p[m]("onload",r)),c("mark",["firstbyte",u],null,"api");var x=0,E=e(4)},{}]},{},["loader"]);</script>
+
+          <link href="https://hackr.io/tutorials/learn-apache-groovy" rel="canonical" />
+    
+          <link rel="amphtml" href="https://hackr.io/tutorials/learn-apache-groovy/amp">
+    
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
+  
+    
+    <link rel="stylesheet" type="text/css" href="https://hackr.io/dist/app-443abdd114e1463bd8ac.css">
+<link rel="stylesheet" type="text/css" href="https://hackr.io/dist/code-443abdd114e1463bd8ac.css">
+
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <title>Learn Groovy - Best Groovy Tutorials | Hackr.io</title>
+<meta name="description" content="Learning Groovy? Check out these best online Groovy courses and tutorials recommended by the programming community. Pick the tutorial as per your learning style: video tutorials or a book. Free course or paid. Tutorials for beginners or advanced learners. Check Groovy community's reviews & comments.">
+<meta itemprop="name" content="Learn Groovy - Best Groovy Tutorials | Hackr.io">
+<meta itemprop="description" content="Learning Groovy? Check out these best online Groovy courses and tutorials recommended by the programming community. Pick the tutorial as per your learning style: video tutorials or a book. Free course or paid. Tutorials for beginners or advanced learners. Check Groovy community's reviews & comments.">
+<meta itemprop="image" content="https://hackr.io/tutorials/learn-apache-groovy/logo/apache-groovy_logo">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:creator" content="@hackrio_">
+<meta name="twitter:description" content="Learning Groovy? Check out these best online Groovy courses and tutorials recommended by the programming community. Pick the tutorial as per your learning style: video tutorials or a book. Free course or paid. Tutorials for beginners or advanced learners. Check Groovy community's reviews & comments.">
+<meta name="twitter:image" content="https://hackr.io/tutorials/learn-apache-groovy/logo/apache-groovy_logo">
+<meta name="twitter:image:alt" content="Learn Groovy - Best Groovy Tutorials | Hackr.io">
+    <meta property="og:title" content="Learn Groovy - Best Groovy Tutorials | Hackr.io" />
+<meta property="og:description" content="Learning Groovy? Check out these best online Groovy courses and tutorials recommended by the programming community. Pick the tutorial as per your learning style: video tutorials or a book. Free course or paid. Tutorials for beginners or advanced learners. Check Groovy community's reviews & comments." />
+<meta property="og:url" content="https://hackr.io/tutorials/learn-apache-groovy" />
+<meta property="og:type" content="website" />
+<meta property="og:site_name" content="Hackr.io" />
+<meta property="og:fb:app_id" content="1457383854551756" />
+<meta property="og:image" content="https://hackr.io/tutorials/learn-apache-groovy/logo/apache-groovy_logo" />
+
+    <meta name="twitter:site" content="@hackrio_" />
+<meta name="twitter:title" content="Learn Groovy - Best Groovy Tutorials | Hackr.io" />
+
+
+    
+    <meta name="csrf-token" content="dgeQ5HOsCmodZRiyene483U0NTqkiAfQfyZ4ciaQ">
+
+    <!-- analytics -->
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+          (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+              m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-47735927-8', 'auto');
+            ga('set', 'dimension1', 'loggedout');
+      ga('send', 'pageview');
+
+  </script>
+    <!-- start Mixpanel --><script type="text/javascript">(function(e,a){if(!a.__SV){var b=window;try{var c,l,i,j=b.location,g=j.hash;c=function(a,b){return(l=a.match(RegExp(b+"=([^&]*)")))?l[1]:null};g&&c(g,"state")&&(i=JSON.parse(decodeURIComponent(c(g,"state"))),"mpeditor"===i.action&&(b.sessionStorage.setItem("_mpcehash",g),history.replaceState(i.desiredHash||"",e.title,j.pathname+j.search)))}catch(m){}var k,h;window.mixpanel=a;a._i=[];a.init=function(b,c,f){function e(b,a){var c=a.split(".");2==c.length&&(b=b[c[0]],a=c[1]);b[a]=function(){b.push([a].concat(Array.prototype.slice.call(arguments,
+            0)))}}var d=a;"undefined"!==typeof f?d=a[f]=[]:f="mixpanel";d.people=d.people||[];d.toString=function(b){var a="mixpanel";"mixpanel"!==f&&(a+="."+f);b||(a+=" (stub)");return a};d.people.toString=function(){return d.toString(1)+".people (stub)"};k="disable time_event track track_pageview track_links track_forms register register_once alias unregister identify name_tag set_config reset people.set people.set_once people.increment people.append people.union people.track_charge people.clear_charges people.delete_user".split(" ");
+        for(h=0;h<k.length;h++)e(d,k[h]);a._i.push([b,c,f])};a.__SV=1.2;b=e.createElement("script");b.type="text/javascript";b.async=!0;b.src="undefined"!==typeof MIXPANEL_CUSTOM_LIB_URL?MIXPANEL_CUSTOM_LIB_URL:"file:"===e.location.protocol&&"//cdn.mxpnl.com/libs/mixpanel-2-latest.min.js".match(/^\/\//)?"https://cdn.mxpnl.com/libs/mixpanel-2-latest.min.js":"//cdn.mxpnl.com/libs/mixpanel-2-latest.min.js";c=e.getElementsByTagName("script")[0];c.parentNode.insertBefore(b,c)}})(document,window.mixpanel||[]);
+    mixpanel.init("056417f085ec3cecac0b7d2fae1b5314");</script><!-- end Mixpanel -->
+
+</head>
+
+<body class="
+      tutorials tutorials-page
+  
+  
+      desktop
+  
+  
+  
+   
+
+  code-site
+
+  signin">
+
+  <!-- Google Tag Manager (noscript) -->
+  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WTX6Q3P" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+  <!-- End Google Tag Manager (noscript) -->
+
+
+      <div id="fb-root"></div>
+    <script>(function(d, s, id) {
+            var js, fjs = d.getElementsByTagName(s)[0];
+            if (d.getElementById(id)) return;
+            js = d.createElement(s); js.id = id;
+            js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.3&appId=1457383854551756";
+            fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));
+    </script>
+  
+  <div class="launch-bar">
+	<div class="container full-width no-padding">
+		<div class="row">
+			<div class="col-xs-12 text-center">
+				<div class="content">
+					<p>🚀&nbsp; We just launched hackr for designers. <a class="btn btn-sm btn-white" href="https://design.instructy.io/" target="_blank">Visit it here</a></p>	
+					<span class="icon"><i class="ion-close"></i></span>	
+				</div>		
+			</div>
+		</div>
+	</div>
+</div>
+<nav class="navbar navbar-fixed-top" role="navigation">
+	<div class="container">
+		<div class="navbar-holder">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbarCollapse" aria-expanded="false">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+										<button href="javascript:void(0);" class="nav-btn visible-xs btn btn-primary pull-right mob-signup open-signup-modal">Sign Up</button>
+								<button data-message="You need to Sign up to submit a tutorial." class="js-open-submit-tutorial login-required  visible-xs nav-btn pull-right btn cta-sec"><i class="ion-plus"></i> Submit</button>
+				<div class="search-bar-toggle nav-icon-toggle visible-xs"><i class="ion-ios-search-strong"></i></div>
+				<a class="navbar-brand" href="https://hackr.io">
+					<img class="hackr-logo-text-path hidden-xs" src="https://hackr.io/assets/images/code-images/code-logo.svg"/>
+					<img class="hackr-logo-text-path visible-xs" src="https://hackr.io/assets/images/code-images/code-logo-mobile.svg"/>
+				</a>
+			</div>
+			<div class="navbar-search search-bar">
+				<div class="form-holder">
+					<div id="navbarSearch">
+						<input class="typeahead form-control nav-input navbar-search-input" type="text" placeholder="Search for the language you want to learn: Python, Javascript, ...">
+					</div>
+					<i class="icon ion-ios-search-strong"></i>
+				</div>
+			</div>
+			<div class="navbar-collapse collapse" id="navbarCollapse">
+				<ul class="nav navbar-nav">
+					<li class="cta-link cta-link-border">
+						<a href="#" class="js-open-submit-tutorial login-required " data-message="You need to Sign up to submit a tutorial."><i class="ion-plus"></i> Submit a Tutorial</a>
+					</li>
+											<li class="cta-link">
+							<a href="#" class="open-signup-modal">Sign Up / Sign In</a>
+						</li>
+									</ul>
+			</div>
+					</div>
+	</div>
+</nav>
+
+  
+  <div class="page-wrapper" data-topic="Groovy">
+
+  <input type="hidden" value="Groovy" id="js-topic">
+  <input type="hidden" value="apache-groovy" id="js-topic-slug">
+  <input type="hidden" value="321" id="js-topic-id">
+  
+  	<!-- Page Header -->
+  	<div class="page--section no-paddingtop">
+  		<!-- Page Section Header -->
+  		<div class="page--section-header tutorial--tut-title">
+
+                
+  			<div class="container alt">
+  				<div class="row">
+  						<div class="col-xs-12">
+
+                                
+  							<div class="page--section-heading tut-section-heading fx wrap-mob fx-wrap fx--ai-fs fx--jc-fs">
+  						    <div class="category-header-wrapper-mobile">
+                    <div class="category-header">
+                      <img src="https://hackr.io/tutorials/learn-apache-groovy/svg/apache-groovy_logo" alt="Learn Groovy from the best Groovy tutorials/courses online." class="tut-icon" />
+                      <div class="tut-info">
+                        <h1 class="tut-title">Groovy Tutorials and Courses</h1>
+                        <div class="tut-description hidden-xs">
+                          <p class="page--section-subheading">Learn Groovy online from the best Groovy tutorials &amp; courses recommended by the programming community. Groovy can be used as a scripting language for the Java Platform. Groovy on Grails is a great combination.</p>
+                          <div class="share-hackr">
+                            <a target="_blank" href=" https://www.facebook.com/sharer/sharer.php?u=https://hackr.io/tutorials/learn-apache-groovy" class="share-btn no-count  share-facebook js-social-share-btn"
+                              data-social="Facebook"> <i class="icon ion-social-facebook"></i> <span class="txt">Share</span> </a>
+                            <a target="_blank" href=" https://twitter.com/home?status=+The+best+online+Groovy+courses+%26+tutorials+recommended+by+the+programming+community.++https%3A%2F%2Fhackr.io%2Ftutorials%2Flearn-apache-groovy" class="share-btn no-count share-twitter js-social-share-btn" data-social="Twitter"> <i class="icon ion-social-twitter"></i> <span class="txt">Tweet</span> </a>
+                            <a target="_blank" href=" https://www.linkedin.com/shareArticle?mini=true&amp;url=https://hackr.io/tutorials/learn-apache-groovy" class="share-btn share-linkedin no-count js-social-share-btn"
+                              data-social="LinkedIn"> <i class="icon ion-social-linkedin"></i> <span class="txt">Share</span> </a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="tut-description visible-xs">
+                      <p class="page--section-subheading">Learn Groovy online from the best Groovy tutorials &amp; courses recommended by the programming community. Groovy can be used as a scripting language for the Java Platform. Groovy on Grails is a great combination.</p>
+                      <div class="share-hackr">
+                        <a target="_blank" href=" https://www.facebook.com/sharer/sharer.php?u=https://hackr.io/tutorials/learn-apache-groovy" class="share-btn no-count  share-facebook js-social-share-btn"
+                          data-social="Facebook"> <i class="icon ion-social-facebook"></i> <span class="txt">Share</span> </a>
+                        <a target="_blank" href=" https://twitter.com/home?status=The+best+online+Groovy+courses+%26+tutorials+recommended+by+the+programming+community.++https%3A%2F%2Fhackr.io%2Ftutorials%2Flearn-apache-groovy" class="share-btn no-count share-twitter js-social-share-btn" data-social="Twitter"> <i class="icon ion-social-twitter"></i> <span class="txt">Tweet</span> </a>
+                        <a target="_blank" href=" https://www.linkedin.com/shareArticle?mini=true&amp;url=https://hackr.io/tutorials/learn-apache-groovy" class="share-btn share-linkedin no-count js-social-share-btn"
+                          data-social="LinkedIn"> <i class="icon ion-social-linkedin"></i> <span class="txt">Share</span> </a>
+                      </div>
+                    </div>
+                  </div>
+  							</div>
+  						</div>
+  					</div>
+  				</div>
+  			</div>
+
+  		<!-- Page Section Body -->
+  		<div class="page--section-body tutorial--tut-list">
+
+  			<div class="container alt">
+
+            <div class="row">
+              <div class="col-xs-12 container-top-tut">
+
+                <div class="row tag-selection  hidden ">
+    <div class="col-xs-12">
+      <div class="selected-tags--container">
+        <div class="col-xs-5 col-sm-3 col-md-2 no-padding">
+          <div class="selections-sec">
+            <p class="txt-bold">Your Selections:</p>
+          </div>
+        </div>
+        <div class="col-xs-7 col-sm-9 col-md-10 no-padding-mob">
+          <div class="selected-tags">
+                                    </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+                <div class="flex-container">
+
+                  <div class="main--content col-xs-12 col-sm-12 col-md-9 no-padding">
+
+                    <div class="js-tutorial-listing-content">
+  <div class="main-content border">
+  <div class="top-tut-container">
+    <p class="top-tut-title">Top tutorials</p>
+    <div class="top-tut-filters hidden-xs hidden-sm">
+      <button class="top-tut-selection  selection-active  js-sort-btn" data-sort="upvotes" title="Sort tutorial from highest to lowest upvotes">
+        Upvotes<span class="sort-arrow"><i class="ion-arrow-down-c"></i></span>
+      </button>
+      <span class="separator">|</span>
+      <button class="top-tut-selection   js-sort-btn marginright-md" data-sort="recent" title="Sort tutorials by most recently submitted to oldest">
+        Recent<span class="sort-arrow"><i class="ion-arrow-down-c"></i></span>
+      </button>
+    </div>
+    <div class="top-tut-filters--mobile visible-xs visible-sm"><a href="#" class="cta-tut-filter">Filters >></a></div>
+  </div>
+
+  <div class="tutorial-listing-wrapper">
+  <div class="tutorial-listing">
+                            <div class="tut-list tut-row ">
+  <div class="tut-list-primary">
+    <div class="tut-vote"    >
+      <a href="javascript:void(0)" class="vote-widget
+                                            login-required            " data-message="   You need to Sign up to upvote a tutorial. " data-topic="Groovy" data-url="https://hackr.io/tutorial/groovy-tutorial/vote"
+        data-id="3883">
+        <span class="arrow">
+          <i class="ion-arrow-up-b"></i>
+        </span>
+        <span class="count">1</span>
+      </a>
+    </div>
+    <div class="tut-title">
+      <div class="title">
+        <div class="title-links no-margin">
+                    <a href="https://hackr.io/tutorial/groovy-tutorial" class="js-tutorial-title" data-tutorialid="3883" data-tutorialrank="1" >
+            <span class="tutorial-title-txt">Groovy Tutorial</span>
+            <span class="tut-title-link">
+                            <span data-id="3883" title="Groovy Tutorial">(youtube.com)</span>
+                          </span>
+          </a>
+        </div>
+      </div>
+      <div class="action-footer">
+        <div class="left">
+          <div class="tut-footer-actions">
+            <div   data-position="top" data-hintid="1" data-hint="You can save tutorials for future reference. They'll be saved to your profile page."
+                class="action save">
+              <a href="javascript:void(0);"  data-message="You need to Sign up to save the tutorial."  class="btn save-btn js-save-btn login-required                 ">
+                  <i class="ion-bookmark save-icon"></i>
+                   <span class="txt"> Save </span>
+              </a>
+            </div>
+          </div>
+          <div class="action author">Submitted by             <a href="https://hackr.io/andres">Andres</a>
+                      </div>
+
+          <div class="tut-label-group">
+                                    <span class="tag-tooltip" style="cursor: initial;" tabindex="0" data-toggle="popover" data-trigger="hover" data-placement="top" data-content="This is a free tutorial">
+              <span class="label label-xs label-primary">Free</span>
+            </span>
+                        <span class="tag-tooltip" style="cursor: initial;" tabindex="0" data-toggle="popover" data-trigger="hover" data-placement="top" data-content="Video-based tutorial">
+              <span class="label label-xs label-primary">Video</span>
+            </span>
+                        <span class="tag-tooltip" style="cursor: initial;" tabindex="0" data-toggle="popover" data-trigger="hover" data-placement="top" data-content="This tutorial is suitable for beginners">
+              <span class="label label-xs label-primary">Beginner</span>
+            </span>
+                                  </div>
+                  </div>
+        <div class="right">
+          <div class="action details">
+            <a href="javascript:void(0);" class="js-details" data-tutorial="Groovy Tutorial" data-topic="Groovy">
+              <i class="js-details-icon tut-footer-action-chevron ion-arrow-down-b"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="tut-list-secondary">
+    <div class="section-one-liner js_one_liner_main"  data-url="https://hackr.io/tutorial/groovy-tutorial/granulars">
+    <div class="tutorial-loader" style="display:block">
+    <i class="ion-load-c"></i>
+  </div>
+  </div>  </div>
+  <div class="featured-tut">
+    <span class="tut-medal">
+      <img src="https://hackr.io/assets/images/medal2.svg" width="17px" height="auto" />
+    </span>
+    <span class="content">Featured</span>
+  </div>
+</div>                    <div class="tut-list tut-row ">
+  <div class="tut-list-primary">
+    <div class="tut-vote"   >
+      <a href="javascript:void(0)" class="vote-widget
+                                            login-required            " data-message="   You need to Sign up to upvote a tutorial. " data-topic="Groovy" data-url="https://hackr.io/tutorial/the-groovy-2-tutorial/vote"
+        data-id="3884">
+        <span class="arrow">
+          <i class="ion-arrow-up-b"></i>
+        </span>
+        <span class="count">0</span>
+      </a>
+    </div>
+    <div class="tut-title">
+      <div class="title">
+        <div class="title-links no-margin">
+                    <a href="https://hackr.io/tutorial/the-groovy-2-tutorial" class="js-tutorial-title" data-tutorialid="3884" data-tutorialrank="2" >
+            <span class="tutorial-title-txt">The Groovy 2 Tutorial</span>
+            <span class="tut-title-link">
+                            <span class="js-tutorial" data-id="3884" title="The Groovy 2 Tutorial"
+                target="_blank">(leanpub.com)</span>
+                          </span>
+          </a>
+        </div>
+      </div>
+      <div class="action-footer">
+        <div class="left">
+          <div class="tut-footer-actions">
+            <div    class="action save">
+              <a href="javascript:void(0);"  data-message="You need to Sign up to save the tutorial."  class="btn save-btn js-save-btn login-required                 ">
+                  <i class="ion-bookmark save-icon"></i>
+                   <span class="txt"> Save </span>
+              </a>
+            </div>
+          </div>
+          <div class="action author">Submitted by             <a href="https://hackr.io/andres">Andres</a>
+                      </div>
+
+          <div class="tut-label-group">
+                                    <span class="tag-tooltip" style="cursor: initial;" tabindex="0" data-toggle="popover" data-trigger="hover" data-placement="top" data-content="This is a free tutorial">
+              <span class="label label-xs label-primary">Free</span>
+            </span>
+                        <span class="tag-tooltip" style="cursor: initial;" tabindex="0" data-toggle="popover" data-trigger="hover" data-placement="top" data-content="This tutorial is suitable for beginners">
+              <span class="label label-xs label-primary">Beginner</span>
+            </span>
+                                  </div>
+                  </div>
+        <div class="right">
+          <div class="action details">
+            <a href="javascript:void(0);" class="js-details" data-tutorial="The Groovy 2 Tutorial" data-topic="Groovy">
+              <i class="js-details-icon tut-footer-action-chevron ion-arrow-down-b"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="tut-list-secondary">
+    <div class="section-one-liner js_one_liner_main"  data-url="https://hackr.io/tutorial/the-groovy-2-tutorial/granulars">
+    <div class="tutorial-loader" style="display:block">
+    <i class="ion-load-c"></i>
+  </div>
+  </div>  </div>
+  <div class="featured-tut">
+    <span class="tut-medal">
+      <img src="https://hackr.io/assets/images/medal2.svg" width="17px" height="auto" />
+    </span>
+    <span class="content">Featured</span>
+  </div>
+</div>                    <div class="tut-list tut-row ">
+  <div class="tut-list-primary">
+    <div class="tut-vote"   >
+      <a href="javascript:void(0)" class="vote-widget
+                                            login-required            " data-message="   You need to Sign up to upvote a tutorial. " data-topic="Groovy" data-url="https://hackr.io/tutorial/the-complete-apache-groovy-developer-course/vote"
+        data-id="3907">
+        <span class="arrow">
+          <i class="ion-arrow-up-b"></i>
+        </span>
+        <span class="count">0</span>
+      </a>
+    </div>
+    <div class="tut-title">
+      <div class="title">
+        <div class="title-links no-margin">
+                    <a href="https://hackr.io/tutorial/the-complete-apache-groovy-developer-course" class="js-tutorial-title" data-tutorialid="3907" data-tutorialrank="3" >
+            <span class="tutorial-title-txt">The Complete Apache Groovy Developer Course</span>
+            <span class="tut-title-link">
+                            <span class="js-tutorial" data-id="3907" title="The Complete Apache Groovy Developer Course"
+                target="_blank">(udemy.com)</span>
+                          </span>
+          </a>
+        </div>
+      </div>
+      <div class="action-footer">
+        <div class="left">
+          <div class="tut-footer-actions">
+            <div    class="action save">
+              <a href="javascript:void(0);"  data-message="You need to Sign up to save the tutorial."  class="btn save-btn js-save-btn login-required                 ">
+                  <i class="ion-bookmark save-icon"></i>
+                   <span class="txt"> Save </span>
+              </a>
+            </div>
+          </div>
+          <div class="action author">Submitted by             <a href="https://hackr.io/rohit-duggal">Rohit</a>
+                      </div>
+
+          <div class="tut-label-group">
+                                    <span class="tag-tooltip" style="cursor: initial;" tabindex="0" data-toggle="popover" data-trigger="hover" data-placement="top" data-content="This is a paid tutorial">
+              <span class="label label-xs label-primary">Paid</span>
+            </span>
+                        <span class="tag-tooltip" style="cursor: initial;" tabindex="0" data-toggle="popover" data-trigger="hover" data-placement="top" data-content="Video-based tutorial">
+              <span class="label label-xs label-primary">Video</span>
+            </span>
+                                  </div>
+                  </div>
+        <div class="right">
+          <div class="action details">
+            <a href="javascript:void(0);" class="js-details" data-tutorial="The Complete Apache Groovy Developer Course" data-topic="Groovy">
+              <i class="js-details-icon tut-footer-action-chevron ion-arrow-down-b"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="tut-list-secondary">
+    <div class="section-one-liner js_one_liner_main"  data-url="https://hackr.io/tutorial/the-complete-apache-groovy-developer-course/granulars">
+    <div class="tutorial-loader" style="display:block">
+    <i class="ion-load-c"></i>
+  </div>
+  </div>  </div>
+  <div class="featured-tut">
+    <span class="tut-medal">
+      <img src="https://hackr.io/assets/images/medal2.svg" width="17px" height="auto" />
+    </span>
+    <span class="content">Featured</span>
+  </div>
+</div>                    <div class="tut-list tut-row ">
+  <div class="tut-list-primary">
+    <div class="tut-vote"   >
+      <a href="javascript:void(0)" class="vote-widget
+                                            login-required            " data-message="   You need to Sign up to upvote a tutorial. " data-topic="Groovy" data-url="https://hackr.io/tutorial/groovy-in-action-second-edition/vote"
+        data-id="3910">
+        <span class="arrow">
+          <i class="ion-arrow-up-b"></i>
+        </span>
+        <span class="count">0</span>
+      </a>
+    </div>
+    <div class="tut-title">
+      <div class="title">
+        <div class="title-links no-margin">
+                    <a href="https://hackr.io/tutorial/groovy-in-action-second-edition" class="js-tutorial-title" data-tutorialid="3910" data-tutorialrank="4" >
+            <span class="tutorial-title-txt">Groovy in Action, Second Edition</span>
+            <span class="tut-title-link">
+                            <span class="js-tutorial" data-id="3910" title="Groovy in Action, Second Edition"
+                target="_blank">(manning.com)</span>
+                          </span>
+          </a>
+        </div>
+      </div>
+      <div class="action-footer">
+        <div class="left">
+          <div class="tut-footer-actions">
+            <div    class="action save">
+              <a href="javascript:void(0);"  data-message="You need to Sign up to save the tutorial."  class="btn save-btn js-save-btn login-required                 ">
+                  <i class="ion-bookmark save-icon"></i>
+                   <span class="txt"> Save </span>
+              </a>
+            </div>
+          </div>
+          <div class="action author">Submitted by             <a href="https://hackr.io/pinki-pal">Pinki</a>
+                      </div>
+
+          <div class="tut-label-group">
+                                    <span class="tag-tooltip" style="cursor: initial;" tabindex="0" data-toggle="popover" data-trigger="hover" data-placement="top" data-content="This is a paid tutorial">
+              <span class="label label-xs label-primary">Paid</span>
+            </span>
+                        <span class="tag-tooltip" style="cursor: initial;" tabindex="0" data-toggle="popover" data-trigger="hover" data-placement="top" data-content="This tutorial is in book/eBook format">
+              <span class="label label-xs label-primary">Book</span>
+            </span>
+                                  </div>
+                  </div>
+        <div class="right">
+          <div class="action details">
+            <a href="javascript:void(0);" class="js-details" data-tutorial="Groovy in Action, Second Edition" data-topic="Groovy">
+              <i class="js-details-icon tut-footer-action-chevron ion-arrow-down-b"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="tut-list-secondary">
+    <div class="section-one-liner js_one_liner_main"  data-url="https://hackr.io/tutorial/groovy-in-action-second-edition/granulars">
+    <div class="tutorial-loader" style="display:block">
+    <i class="ion-load-c"></i>
+  </div>
+  </div>  </div>
+  <div class="featured-tut">
+    <span class="tut-medal">
+      <img src="https://hackr.io/assets/images/medal2.svg" width="17px" height="auto" />
+    </span>
+    <span class="content">Featured</span>
+  </div>
+</div>            
+        </div>
+  <div class="tutorial-loader">
+    <i class="ion-load-c"></i>
+  </div>
+</div>
+
+</div><!-- main-content -->
+</div>                    
+                    <!-- When user revisits the site -->
+                    <div class="revisit-tut" data-url="https://hackr.io/tutorials/revisit/clicked-tutorials">
+  <div class="revisit-tut-wrapper">
+    <button type="button" class="modal-action-btn action-right close-revisit-modal" data-dismiss="modal"><i class="ion-android-close"></i></button>
+    
+    <h4 class="marginbottom-sm txt-bold">Welcome back!</h4>
+    <p class="marginbottom-md js-revisit-desc">You checked out these tutorials the last time you visited. Please upvote the ones you found useful.</p>      
+    <div class="panel intro-panel"></div>
+  </div>
+</div>
+                                        
+                    <div class="page--section-body margintop-xlg  paddingright-sm  ">
+  <div class="heading">You might also be interested in :</div>
+  <div class="flex-grid hackr--flex-grid tutorial--flex-grid margintop-md">
+        <div class="card-outer">
+      <a href="https://hackr.io/tutorials/learn-grails" class="card js-related-topic topic-grid-item" data-slug="grails">
+        <img class="topic-thumbnail" src="https://hackr.io/tutorials/learn-grails/svg/grails_logo" alt="Grails Tutorials and courses">
+        <p class="js-topic">Grails</p>
+      </a>
+    </div>
+        <div class="card-outer">
+      <a href="https://hackr.io/tutorials/learn-kotlin" class="card js-related-topic topic-grid-item" data-slug="kotlin">
+        <img class="topic-thumbnail" src="https://hackr.io/tutorials/learn-kotlin/svg/kotlin_logo" alt="Kotlin Tutorials and courses">
+        <p class="js-topic">Kotlin</p>
+      </a>
+    </div>
+        <div class="card-outer">
+      <a href="https://hackr.io/tutorials/learn-java" class="card js-related-topic topic-grid-item" data-slug="java">
+        <img class="topic-thumbnail" src="https://hackr.io/tutorials/learn-java/svg/java_logo" alt="Java Tutorials and courses">
+        <p class="js-topic">Java</p>
+      </a>
+    </div>
+        <div class="card-outer">
+      <a href="https://hackr.io/tutorials/learn-scala" class="card js-related-topic topic-grid-item" data-slug="scala">
+        <img class="topic-thumbnail" src="https://hackr.io/tutorials/learn-scala/svg/scala_logo" alt="Scala Tutorials and courses">
+        <p class="js-topic">Scala</p>
+      </a>
+    </div>
+        <div class="card-outer">
+      <a href="https://hackr.io/tutorials/learn-android-development" class="card js-related-topic topic-grid-item" data-slug="android-development">
+        <img class="topic-thumbnail" src="https://hackr.io/tutorials/learn-android-development/svg/android-development_logo" alt="Android Development Tutorials and courses">
+        <p class="js-topic">Android Development</p>
+      </a>
+    </div>
+        <div class="card-outer">
+      <a href="https://hackr.io/tutorials/learn-react-native" class="card js-related-topic topic-grid-item" data-slug="react-native">
+        <img class="topic-thumbnail" src="https://hackr.io/tutorials/learn-react-native/svg/react-native_logo" alt="React Native Tutorials and courses">
+        <p class="js-topic">React Native</p>
+      </a>
+    </div>
+      </div>
+</div>
+
+                    <!-- subscription-box -->
+    <div class="panel intro-panel  marginright-ssm  subscribe-box  panel-primary margintop-lg">
+      <div class="panel-body">
+        <form name="topicSubscriptionForm"
+        action="https://hackr.io/tutorials/learn-apache-groovy/subscribe"
+        method="post" id="topic-subscription-form"
+        class="">
+        <div class="element text-center sub-box-msg paddingrl-sm">
+          <span class="welcome-text-wrapper paddingrl-md" style="display: inline-block;">
+            
+            <span class="welcome-emoji paddingright-xs">👋</span>
+            <span class="welcome-text txt-bold">Welcome to Hackr.io.</span>   Get all the trending Groovy tutorials submitted to Hackr.io in your email, once a week.
+                      </span>
+          <input type="hidden" name="_token" value="dgeQ5HOsCmodZRiyene483U0NTqkiAfQfyZ4ciaQ">
+          
+        </div>
+                <div class="text-center margintop-sm">
+          <div class="input-group">
+            <input type="email" name="email" class="form-control" placeholder="Your email">
+            <div class="input-group-btn">
+              <input type="submit" class="element btn btn-primary" value="Subscribe">
+            </div>
+          </div>
+        </div>
+              </form>
+    </div>
+  </div>
+
+                                      </div>
+
+                                      <div class="sidebar-content tutorial-filters col-md-3 no-paddingright hidden-xs hidden-sm">
+      <div class="panel intro-panel">
+      <div class="panel-header">
+        <div class="panel-heading">
+          <span class="txt">Wanna find a programming buddy?</span>
+        </div>
+        <div class="panel-body">
+          <p class="txt">Learning a new programming language can be tough especially if you are a beginner in programming. Find a programming
+            buddy and learn in a more engaged & fun way.
+          </p>
+          <div class="sec-cta">
+                          <a style="width:100%; font-weight:500;" href="https://hackr.io/programming-buddy/apache-groovy"
+                data-topic="Groovy" data-message="You need to sign in to find a programming buddy" data-url="https://hackr.io/programming-buddy/apache-groovy"
+             class="buddy-login-required js-buddy-login-required btn btn-primary btn-find-buddy">Find a programming buddy</a>
+                      </div>
+        </div>
+      </div>
+    </div>
+  
+
+  
+  <div   data-hintPosition="top-left" data-position="top" data-hintid="2" data-hint="Find the tutorial you are looking for faster using the filters."   class="panel intro-panel panel-primary">
+    <div class="panel-header">
+      <div class="panel-heading">
+        <h3>CHOOSE YOUR COURSE</h3>
+      </div>
+    </div>
+    <div class="panel-body paddingtop-xs">
+      <form name="tutorialFiltersForm" class="" id="filters-form" method="post">
+                <div class="form-group">
+          <h3 class="txt-bold filter-heading">Type of course</h3>
+                    <div class="control-group">
+            <label class="control control--checkbox">
+              <input type="checkbox" name="tags[]" data-id="t-1" class="filter-checkbox"  value="1">
+              <span class="tag-name">Free</span>
+              <span class="tut-count">(2)</span>
+              <div class="control--indicator"></div>
+            </label>
+          </div>
+                    <div class="control-group">
+            <label class="control control--checkbox">
+              <input type="checkbox" name="tags[]" data-id="t-2" class="filter-checkbox"  value="2">
+              <span class="tag-name">Paid</span>
+              <span class="tut-count">(2)</span>
+              <div class="control--indicator"></div>
+            </label>
+          </div>
+                    <div class="control-group">
+            <label class="control control--checkbox">
+              <input type="checkbox" name="tags[]" data-id="t-3" class="filter-checkbox"  value="3">
+              <span class="tag-name">Video</span>
+              <span class="tut-count">(2)</span>
+              <div class="control--indicator"></div>
+            </label>
+          </div>
+                    <div class="control-group">
+            <label class="control control--checkbox">
+              <input type="checkbox" name="tags[]" data-id="t-6" class="filter-checkbox"  value="6">
+              <span class="tag-name">Book</span>
+              <span class="tut-count">(1)</span>
+              <div class="control--indicator"></div>
+            </label>
+          </div>
+                   </div>
+                 <div class="form-group">
+          <h3 class="txt-bold filter-heading">Level</h3>
+                    <div class="control-group">
+            <label class="control control--checkbox">
+              <input type="checkbox" name="tags[]" data-id="t-7" class="filter-checkbox"  value="7">
+              <span class="tag-name">Beginner</span>
+              <span class="tut-count">(2)</span>
+              <div class="control--indicator"></div>
+            </label>
+          </div>
+                  </div>
+               </form>
+    </div>
+  </div>
+
+   
+  
+   <div id="modalBuddyLogin" class="modal full-page-modal" tabindex="-1" role="dialog" aria-hidden="false">
+  <button type="button" class="modal-action-btn action-right close-modal" data-dismiss="modal"><i class="ion-android-close"></i></button>
+  <div class="modal-container">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content text-center">
+
+        <div class="modal-body submit-tutorial-modal">
+          <div class="modal-header">
+            <div class="modal-title">Welcome Learners!</div>
+
+            <div class="login-needed-alert"></div>
+
+            <div class="modal-subtitle">Sign in using:</div>
+          </div>
+          <div class="social-login-buttons fx">
+            <div class="login-buttons">
+              <a href="https://hackr.io/users/login/facebook" class="btn btn-large btn_facebook">
+                <i class="fa fa-facebook"></i>
+                <div class="mod_fb">
+                  Log in with facebook
+                </div>
+              </a>
+            </div>
+            <div class="login-buttons">
+              <a href="https://hackr.io/users/login/google" class="btn btn-large btn_gplus">
+                <i class="fa fa-google"></i>
+                <div class="mod_gp">
+                  Log in with google
+                </div>
+              </a>
+            </div>
+            <div class="login-buttons">
+              <a href="https://hackr.io/users/login/twitter" class="btn btn-large btn_twitter">
+                <i class="fa fa-twitter"></i>
+                <div class="mod_tw">
+                  Log in with twitter
+                </div>
+              </a>
+            </div>
+          </div>
+        </div><!-- /.signin-modal-body -->
+      </div><!-- /.modal-content -->
+    </div><!-- /.modal-dialog -->
+  </div><!-- /.modal-container -->
+</div><!-- /.modal -->   <div class="panel intro-panel ad-panel carbon-ad-wrapper">
+  <script async type="text/javascript" src="//cdn.carbonads.com/carbon.js?zoneid=1673&serve=C6AILKT&placement=hackrio" id="_carbonads_js">
+  </script>
+</div> 
+  <div class="hidden panel intro-panel sidepanel-share">
+  <div class="panel-header">
+    <div class="panel-heading">
+      <h3>Share these tutorials with your freinds </h3>
+    </div>
+  </div>
+  <div class="panel-body text-center">
+    <div class="share-hackr sidepanel-share-btn">
+      <div class="share-group1">
+        <a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https://hackr.io/tutorials/learn-apache-groovy&amp;title=Great+Groovy+courses+%26+tutorials+submitted+and+voted+by+the+programming+community." class="share-btn no-count share-facebook"> <i class="icon ion-social-facebook"></i> <span class="txt">Share</span> </a>
+        <a target="_blank" href="https://twitter.com/home?status=Great+Groovy+courses+%26+tutorials+submitted+and+voted+by+the+programming+community.+https%3A%2F%2Fhackr.io%2Ftutorials%2Flearn-apache-groovy" class="share-btn no-count share-twitter"> <i class="icon ion-social-twitter"></i> <span class="txt">Tweet</span> </a>
+      </div>
+      <div class="share-group2">
+        <a target="_blank" href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https://hackr.io/tutorials/learn-apache-groovy&amp;title=Groovy&amp;summary= Great+Groovy+courses+%26+tutorials+submitted+and+voted+by+the+programming+community.&amp;source=" class="share-btn no-count share-linkedin"><i class="icon ion-social-linkedin"></i><span class="txt">Share</span></a>
+      </div>
+    </div>
+  </div>
+</div>
+ 
+  
+
+</div>                  
+                </div><!-- flex-container -->
+
+              </div>
+            </div>
+          </div>
+
+  				</div>
+
+  			</div>
+  		</div>
+
+
+  	</div>
+
+  	<div class="clearfix"></div>
+  </div>
+
+  </div><!-- /.page-wrapper -->
+    
+  <!-- Modals -->
+<div id="modalSignIn" class="modal  full-page-modal" tabindex="-1" role="dialog" aria-hidden="false">
+	<!-- <button type="button" class="modal-action-btn action-left back-to-signin" style="opacity: 0;"><i class="ion-ios-arrow-back"></i></button> -->
+	<button type="button" class="modal-action-btn action-right close-modal" data-dismiss="modal"><i class="ion-android-close"></i></button>
+	<div class="modal-container">
+		<div class="modal-dialog" role="document">
+			<div class="modal-content text-center">
+
+				<div class="modal-body signin-modal-body">
+					<div class="modal-header">
+						<div class="modal-title">Welcome Learners!</div>
+
+						<div class="login-needed-alert"></div>
+
+						<div class="modal-subtitle">Sign in using:</div>
+					</div>
+
+					<div class="social-login-buttons fx">
+						<div class="login-buttons">
+							<a href="https://hackr.io/users/login/facebook" class="btn btn-large btn_facebook"><i class="fa fa-facebook"></i></a>
+						</div>
+						<div class="login-buttons">
+							<a href="https://hackr.io/users/login/google" class="btn btn-large btn_gplus"><i class="fa fa-google"></i></a>
+						</div>
+						<div class="login-buttons">
+							<a href="https://hackr.io/users/login/twitter" class="btn btn-large btn_twitter"><i class="fa fa-twitter"></i></a>
+						</div>
+					</div>
+
+					<div class="divider-with-text margintop-lg">Or Sign in using Email:</div>
+
+					<form name="userLoginForm" action="https://hackr.io/users/login/email" method="post" id="login-modal-form">
+
+						<input type="hidden" name="_token" value="dgeQ5HOsCmodZRiyene483U0NTqkiAfQfyZ4ciaQ">
+						<div class="form-group">
+							<div class="input-with-icon">
+								<input type="email" name="email" class="form-control" required placeholder="Email Address" />
+								<i class="input-icon ion-android-mail"></i>
+							</div>
+						</div>
+						<div class="form-group">
+							<div class="input-with-icon">
+								<input type="password" name="password" class="form-control" placeholder="Password" required />
+								<i class="input-icon ion-android-lock"></i>
+							</div>
+						</div>
+						<div class="form-group form-actions">
+							<a href="javascript:void(0);" class="show-forgot-password">Forgot Password?</a>
+						</div>
+						<div class="form-group">
+							<button type="submit" class="btn btn-success full_width spinning-loader"><span class="txt">Sign In</span><i class="fa fa-circle-o-notch fa-spin"></i></button>
+						</div>
+					</form>
+
+					<div class="margintb-md">
+						<p class="para no-margin">Don't have an account? <a href="javascript:void(0);" class="open-signup-modal">Sign Up</a></p>
+					</div>
+				</div><!-- /.signin-modal-body -->
+
+			</div><!-- /.modal-content -->
+		</div><!-- /.modal-dialog -->
+	</div><!-- /.modal-container -->
+</div><!-- /.modal -->
+<div id="modalSignUp" class="modal full-page-modal" tabindex="-1" role="dialog" aria-hidden="false">
+	<!-- <button type="button" class="modal-action-btn action-left back-to-signin" style="opacity: 0;"><i class="ion-ios-arrow-back"></i></button> -->
+	<button type="button" class="modal-action-btn action-right close-modal" data-dismiss="modal"><i class="ion-android-close"></i></button>
+	<div class="modal-container">
+		<div class="modal-dialog" role="document">
+			<div class="modal-content text-center">
+
+				<div class="modal-body signup-modal-body">
+					<div class="modal-header">
+						<div class="modal-title">Using Hackr.io is Free Forever!</div>
+						<div class="login-needed-alert"></div>
+						<div class="modal-subtitle">Sign up using:</div>
+					</div>
+					<div class="social-login-buttons fx">
+						<div class="login-buttons">
+							<a href="https://hackr.io/users/login/facebook" class="btn btn-large btn_facebook"><i class="fa fa-facebook"></i></a>
+						</div>
+						<div class="login-buttons">
+							<a href="https://hackr.io/users/login/google" class="btn btn-large btn_gplus"><i class="fa fa-google"></i></a>
+						</div>
+						<div class="login-buttons">
+							<a href="https://hackr.io/users/login/twitter" class="btn btn-large btn_twitter"><i class="fa fa-twitter"></i></a>
+						</div>
+					</div>
+					<div class="divider-with-text no-marginbottom">Or Sign up using Email:</div>
+					<form name="userSignUpForm" action="https://hackr.io/signup" method="post" id="signup-modal-form"  class="margintop-lg">
+
+						<input type="hidden" name="_token" value="dgeQ5HOsCmodZRiyene483U0NTqkiAfQfyZ4ciaQ">
+						
+
+						<div class="form-group full_name-form-group">
+							<div class="input-with-icon">
+								<input type="text" name="full_name" class="form-control" placeholder="Full Name" />
+								<i class="input-icon ion-person-stalker"></i>
+							</div>
+						</div>
+
+						<div class="form-group email-form-group">
+							<div class="input-with-icon">
+								<input type="email" name="email" class="form-control" placeholder="Email Address" />
+								<i class="input-icon ion-android-mail"></i>
+							</div>
+						</div>
+						<div class="form-group password-form-group">
+							<div class="input-with-icon">
+								<input type="password" name="password" class="form-control" placeholder="Password" />
+								<i class="input-icon ion-android-lock"></i>
+							</div>
+						</div>
+						
+						<div class="form-group">
+							<button type="submit" class="btn btn-success full_width spinning-loader"><span class="txt">Create Your Free Account</span><i class="fa fa-circle-o-notch fa-spin"></i></button>
+						</div>
+					</form>
+					<div class="margintb-md">
+						<p class="para no-margin">Already have an account? <a href="javascript:void(0);" class="open-login-modal">Sign In</a></p>
+					</div>
+				</div><!-- /.signup-modal-body -->
+
+
+			</div><!-- /.modal-content -->
+		</div><!-- /.modal-dialog -->
+	</div><!-- /.modal-container -->
+</div><!-- /.modal -->
+<div id="modalForgot" class="modal full-page-modal" tabindex="-1" role="dialog" aria-hidden="false">
+	<!-- <button type="button" class="modal-action-btn action-left back-to-signin" style="opacity: 0;"><i class="ion-ios-arrow-back"></i></button> -->
+	<button type="button" class="modal-action-btn action-right close-modal" data-dismiss="modal"><i class="ion-android-close"></i></button>
+	<div class="modal-container">
+		<div class="modal-dialog" role="document">
+			<div class="modal-content text-center">
+
+				<div class="modal-body forgot-modal-body">
+					<div class="modal-header">
+						<div class="modal-title">Forgot your Password?</div>
+						<div class="modal-subtitle">We'll email you the instructions on how to reset it.</div>
+					</div>
+					<form name="forgotPassworForm" action="https://hackr.io/users/forgot_password" method="post" id="forgot-password-form">
+						<input type="hidden" name="_token" value="dgeQ5HOsCmodZRiyene483U0NTqkiAfQfyZ4ciaQ">
+						<div class="form-group email-form-group">
+							<div class="input-with-icon">
+								<input type="email" name="email" class="form-control" placeholder="Email Address" />
+								<i class="input-icon ion-android-mail"></i>
+							</div>
+							
+						</div>
+						<div class="form-group">
+							<button type="submit" class="btn btn-success full_width">Forgot Password</button>
+						</div>
+					</form>
+				</div><!-- /.forgot-modal-body -->
+
+			</div><!-- /.modal-content -->
+		</div><!-- /.modal-dialog -->
+	</div><!-- /.modal-container -->
+</div><!-- /.modal -->
+<div id="modalSubmitTutorial" class="modal full-page-modal no-padding" tabindex="-1" role="dialog" aria-hidden="false">
+	<button type="button" class="modal-action-btn action-right close-modal" data-dismiss="modal"><i class="ion-android-close"></i></button>
+	<div class="modal-container">
+		<div class="modal-dialog" role="document">
+			<div class="modal-content text-center">
+				<div class="modal-body submit-tutorial-modal">
+					<div class="modal-header">
+						<div class="modal-title">Submit Course/Tutorial</div>
+												<div class="modal-subtitle">
+							Paste the course/tutorial link below:
+						</div>
+					</div>
+					<form name="submitTutorialForm" method="post" action="https://hackr.io/tutorials/new" id="submit-tutorial" class="form-horizontal">
+						<input type="hidden" name="_token" value="dgeQ5HOsCmodZRiyene483U0NTqkiAfQfyZ4ciaQ">
+						<div class="form-group url-form-group">
+							<div class="input-with-icon">
+								<input type="text" required class="form-control url-input js-url-input" data-checkurl="https://hackr.io/tutorials/new/check" name="url" placeholder="URL of the Tutorial"/>
+								<i class="input-icon ion-link"></i>
+							</div>
+						</div>
+						<div class="form-group">
+							<p class="tut-info-title">Tell us more about this course/tutorial (optional)*</p>
+						</div>
+						<div class="form-group text-left no-padding language-selction">
+							<label class="control-label language-label" for="language">Programming language/<br class="hidden-xs"/>Framework/Library:</label>
+							<div class="modal-sec-input">
+								<select class="form-control language-options" name="topics[]" id="topics" multiple="multiple" value="" placeholder="E.g. Android, Javscript etc">
+							                        <option value="593">ALB</option>
+                                      <option value="344">Alexa Skills Kit</option>
+                                      <option value="529">Amazon Cognito</option>
+                                      <option value="245">Android 7 — Nougat</option>
+                                      <option value="27">Android Development</option>
+                                      <option value="343">Android O</option>
+                                      <option value="25">Angular</option>
+                                      <option value="213">Angular 2</option>
+                                      <option value="131">Angular 4</option>
+                                      <option value="561">Angular 5</option>
+                                      <option value="214">AngularJS</option>
+                                      <option value="54">Ansible</option>
+                                      <option value="133">Ansible 1.x</option>
+                                      <option value="132">Ansible 2.x</option>
+                                      <option value="320">Apache Spark</option>
+                                      <option value="365">Apollo</option>
+                                      <option value="223">Arduino</option>
+                                      <option value="373">ARKit</option>
+                                      <option value="106">Artificial Intelligence</option>
+                                      <option value="67">ASP.NET</option>
+                                      <option value="135">ASP.NET Core</option>
+                                      <option value="134">ASP.NET MVC 5</option>
+                                      <option value="93">Assembly Language</option>
+                                      <option value="42">AWK</option>
+                                      <option value="22">AWS</option>
+                                      <option value="303">AWS Certification</option>
+                                      <option value="2">Backbone.js</option>
+                                      <option value="387">Bash</option>
+                                      <option value="409">BigQuery</option>
+                                      <option value="408">Bigtable</option>
+                                      <option value="378">Bitcoin</option>
+                                      <option value="678">Bitcoin Script</option>
+                                      <option value="90">Bootstrap</option>
+                                      <option value="136">Bootstrap 3</option>
+                                      <option value="137">Bootstrap 4</option>
+                                      <option value="88">C</option>
+                                      <option value="66">C#</option>
+                                      <option value="63">C++</option>
+                                      <option value="673">C++ Graphics</option>
+                                      <option value="10">CakePHP</option>
+                                      <option value="140">CakePHP 1.x</option>
+                                      <option value="139">CakePHP 2.x</option>
+                                      <option value="138">CakePHP 3.x</option>
+                                      <option value="79">Cassandra</option>
+                                      <option value="55">Chef</option>
+                                      <option value="78">Clojure</option>
+                                      <option value="220">COBOL</option>
+                                      <option value="120">CodeIgniter</option>
+                                      <option value="32">CoffeeScript</option>
+                                      <option value="141">CoffeeScript 1.x</option>
+                                      <option value="142">CoffeeScript 2.x</option>
+                                      <option value="389">CompTIA A+</option>
+                                      <option value="388">CompTIA Certification</option>
+                                      <option value="390">CompTIA Network+</option>
+                                      <option value="391">CompTIA Security+</option>
+                                      <option value="38">CouchDB</option>
+                                      <option value="143">CouchDB 1.x</option>
+                                      <option value="144">CouchDB 2.x</option>
+                                      <option value="16">CSS</option>
+                                      <option value="145">CSS 3</option>
+                                      <option value="660">CSS Grid</option>
+                                      <option value="76">D</option>
+                                      <option value="87">D3.js</option>
+                                      <option value="146">D3.js v3</option>
+                                      <option value="147">D3.js v4</option>
+                                      <option value="113">Dart</option>
+                                      <option value="221">Data Science</option>
+                                      <option value="9">Data Structures and Algorithms</option>
+                                      <option value="415">Design Patterns</option>
+                                      <option value="19">Django</option>
+                                      <option value="148">Django 1.8</option>
+                                      <option value="149">Django 1.9</option>
+                                      <option value="150">Django 1.10</option>
+                                      <option value="232">Django 1.11</option>
+                                      <option value="34">Docker</option>
+                                      <option value="535">Drupal</option>
+                                      <option value="547">Drupal 7</option>
+                                      <option value="546">Drupal 8</option>
+                                      <option value="304">EC2</option>
+                                      <option value="115">ECMAScript</option>
+                                      <option value="110">Elasticsearch</option>
+                                      <option value="565">Elasticsearch 5</option>
+                                      <option value="284">Electron</option>
+                                      <option value="99">Elixir</option>
+                                      <option value="105">Elm</option>
+                                      <option value="65">Emacs</option>
+                                      <option value="20">Ember.js</option>
+                                      <option value="151">Ember.js 1.x</option>
+                                      <option value="152">Ember.js 2.x</option>
+                                      <option value="404">Entity Framework</option>
+                                      <option value="60">Erlang</option>
+                                      <option value="301">ES6</option>
+                                      <option value="39">Express</option>
+                                      <option value="153">Express 4.x</option>
+                                      <option value="119">F#</option>
+                                      <option value="47">Firebase</option>
+                                      <option value="72">Flask</option>
+                                      <option value="235">Flexbox</option>
+                                      <option value="123">Forth</option>
+                                      <option value="124">Fortran</option>
+                                      <option value="672">Game Development</option>
+                                      <option value="1">Git</option>
+                                      <option value="37">Go</option>
+                                      <option value="52">Google Analytics</option>
+                                      <option value="407">Google App Engine</option>
+                                      <option value="74">Google Apps Scripts</option>
+                                      <option value="412">Google Cloud Datastore</option>
+                                      <option value="411">Google Cloud Functions</option>
+                                      <option value="405">Google Cloud Platform</option>
+                                      <option value="406">Google Compute Engine</option>
+                                      <option value="410">Google Storage</option>
+                                      <option value="333">Grails</option>
+                                      <option value="334">Grails 3</option>
+                                      <option value="108">GraphQL</option>
+                                      <option value="321">Groovy</option>
+                                      <option value="332">Groovy 2.0</option>
+                                      <option value="28">Growth Hacking</option>
+                                      <option value="80">Grunt</option>
+                                      <option value="58">Gulp</option>
+                                      <option value="91">Hadoop</option>
+                                      <option value="154">Hadoop 2.x</option>
+                                      <option value="155">Hadoop 3.x</option>
+                                      <option value="46">Haskell</option>
+                                      <option value="446">Hibernate Framework</option>
+                                      <option value="5">HTML 5</option>
+                                      <option value="75">Illustrator</option>
+                                      <option value="121">Information Security &amp; Hacking</option>
+                                      <option value="111">Intro to Programming</option>
+                                      <option value="85">Ionic</option>
+                                      <option value="156">Ionic 2</option>
+                                      <option value="262">Ionic 3</option>
+                                      <option value="157">iOS 10</option>
+                                      <option value="371">iOS 11</option>
+                                      <option value="35">iOS and Swift</option>
+                                      <option value="49">Java</option>
+                                      <option value="666">Java 9</option>
+                                      <option value="450">Java Persistence API (JPA)</option>
+                                      <option value="7">JavaScript</option>
+                                      <option value="116">Java Spring Framework</option>
+                                      <option value="368">JDBC</option>
+                                      <option value="318">Jenkins</option>
+                                      <option value="3">jQuery</option>
+                                      <option value="103">Julia</option>
+                                      <option value="664">Kali Linux</option>
+                                      <option value="670">Kibana</option>
+                                      <option value="237">Kotlin</option>
+                                      <option value="215">Kubernetes</option>
+                                      <option value="596">Lambda</option>
+                                      <option value="11">Laravel</option>
+                                      <option value="125">Laravel 4.2</option>
+                                      <option value="126">Laravel 5.0</option>
+                                      <option value="127">Laravel 5.1</option>
+                                      <option value="128">Laravel 5.2</option>
+                                      <option value="129">Laravel 5.3</option>
+                                      <option value="130">Laravel 5.4</option>
+                                      <option value="81">Latex</option>
+                                      <option value="95">LESS</option>
+                                      <option value="56">Linux System Administration</option>
+                                      <option value="96">Lisp</option>
+                                      <option value="671">Logstash</option>
+                                      <option value="217">Lua</option>
+                                      <option value="218">Lua 5.0</option>
+                                      <option value="219">Lua 5.1</option>
+                                      <option value="107">Machine Learning</option>
+                                      <option value="345">Math for Data Science </option>
+                                      <option value="648">Math for Machine Learning</option>
+                                      <option value="82">MATLAB</option>
+                                      <option value="30">Mercurial</option>
+                                      <option value="162">Mercurial 3.x</option>
+                                      <option value="161">Mercurial 4.x</option>
+                                      <option value="50">Meteor</option>
+                                      <option value="163">Meteor 1.3</option>
+                                      <option value="164">Meteor 1.4</option>
+                                      <option value="70">Microsoft Azure</option>
+                                      <option value="342">Microsoft Azure Certification</option>
+                                      <option value="26">MongoDB</option>
+                                      <option value="53">MySQL</option>
+                                      <option value="18">Nginx</option>
+                                      <option value="201">Nim</option>
+                                      <option value="21">Node.js</option>
+                                      <option value="594">Node.js 8</option>
+                                      <option value="665">Node.js 9</option>
+                                      <option value="651">NumPy</option>
+                                      <option value="114">Objective-C</option>
+                                      <option value="122">OCaml</option>
+                                      <option value="225">OpenCV</option>
+                                      <option value="226">OpenCV 3</option>
+                                      <option value="101">OpenGL</option>
+                                      <option value="43">Perl</option>
+                                      <option value="165">Perl 5</option>
+                                      <option value="166">Perl 6</option>
+                                      <option value="29">PhoneGap</option>
+                                      <option value="8">Photoshop</option>
+                                      <option value="40">PHP</option>
+                                      <option value="167">PHP 5</option>
+                                      <option value="168">PHP 7</option>
+                                      <option value="89">Polymer</option>
+                                      <option value="97">Postgres</option>
+                                      <option value="169">Postgres 9.x</option>
+                                      <option value="628">PowerShell</option>
+                                      <option value="61">Prolog</option>
+                                      <option value="48">Puppet</option>
+                                      <option value="530">PySpark</option>
+                                      <option value="13">Python</option>
+                                      <option value="205">Python 2</option>
+                                      <option value="170">Python 2.7</option>
+                                      <option value="171">Python 3</option>
+                                      <option value="57">R</option>
+                                      <option value="224">Raspberry Pi</option>
+                                      <option value="44">React</option>
+                                      <option value="302">React Native</option>
+                                      <option value="544">Red Hat Enterprise Linux</option>
+                                      <option value="31">Redis</option>
+                                      <option value="222">Redux</option>
+                                      <option value="64">Regular Expressions</option>
+                                      <option value="36">RequireJS</option>
+                                      <option value="650">RSpec</option>
+                                      <option value="14">Ruby</option>
+                                      <option value="4">Ruby on Rails</option>
+                                      <option value="172">Ruby on Rails 3.x</option>
+                                      <option value="173">Ruby on Rails 4.x</option>
+                                      <option value="174">Ruby on Rails 5.x</option>
+                                      <option value="86">Rust</option>
+                                      <option value="280">SAP ABAP</option>
+                                      <option value="84">Sass</option>
+                                      <option value="51">Scala</option>
+                                      <option value="23">Sed</option>
+                                      <option value="548">Selenium</option>
+                                      <option value="560">Selenium WebDriver</option>
+                                      <option value="6">SEO</option>
+                                      <option value="449">Shell Scripting</option>
+                                      <option value="73">Sinatra</option>
+                                      <option value="59">Sketch</option>
+                                      <option value="175">Sketch 3</option>
+                                      <option value="112">Smalltalk</option>
+                                      <option value="98">Socket.io</option>
+                                      <option value="629">Solidity</option>
+                                      <option value="367">Spark Framework</option>
+                                      <option value="347">Spring 4</option>
+                                      <option value="541">Spring 5</option>
+                                      <option value="540">Spring Boot</option>
+                                      <option value="539">Spring MVC</option>
+                                      <option value="41">SQL</option>
+                                      <option value="68">SQL Server</option>
+                                      <option value="444">SQL Server Certification</option>
+                                      <option value="346">Statistics for Data Science </option>
+                                      <option value="649">Statistics for Machine Learning</option>
+                                      <option value="15">SVN</option>
+                                      <option value="195">Swift 3</option>
+                                      <option value="372">Swift 4</option>
+                                      <option value="45">Symfony</option>
+                                      <option value="253">Symfony 3</option>
+                                      <option value="569">T-SQL</option>
+                                      <option value="229">TensorFlow</option>
+                                      <option value="677">Truffle Framework</option>
+                                      <option value="117">Turtle graphics</option>
+                                      <option value="104">TypeScript</option>
+                                      <option value="176">TypeScript 1.x</option>
+                                      <option value="177">TypeScript 2.x</option>
+                                      <option value="94">Unity</option>
+                                      <option value="306">Unity 2D</option>
+                                      <option value="307">Unity 3D</option>
+                                      <option value="250">Unity 5</option>
+                                      <option value="118">Unreal Engine</option>
+                                      <option value="568">Unreal Engine 4</option>
+                                      <option value="33">Vagrant</option>
+                                      <option value="12">Vim</option>
+                                      <option value="69">Visual Basic</option>
+                                      <option value="100">Vue.js</option>
+                                      <option value="179">Vue JS 2</option>
+                                      <option value="295">Vuex</option>
+                                      <option value="647">web3.js</option>
+                                      <option value="77">WebGL</option>
+                                      <option value="109">Webpack</option>
+                                      <option value="180">Webpack 1.x</option>
+                                      <option value="181">Webpack 2</option>
+                                      <option value="17">Website Performance</option>
+                                      <option value="71">Windows Server Administration</option>
+                                      <option value="92">Wordpress</option>
+                                      <option value="675">WP Plugin Development</option>
+                                      <option value="674">WP Theme Development</option>
+                                      <option value="216">Xamarin</option>
+                                      <option value="298">Xamarin.Forms</option>
+                                      <option value="83">Yii</option>
+                  								</select>
+							</div>
+						</div>
+						<div class="form-group modal-sec-tags">
+							<div class="tag-info-title">
+								<p>Tags:</p>
+							</div>
+							<div class="control-group radio-checkbox modal-form-sec">
+								<label class="c-label-primary primary control control--radio">
+									<input type="radio" name="price" value="1" id="optradion-free">Free
+									<div class="control--indicator"></div>
+								</label>
+								<label class="c-label-primary primary control control--radio">
+									<input type="radio" name="price" value="2" id="optradio-paid">Paid
+									<div class="control--indicator"></div>
+								</label>
+								<span style="font-size:14px; color: #d9d9d9;">&nbsp;&nbsp;&nbsp;&nbsp;</span>
+								<label class="c-label-primary primary control control--radio">
+									<input type="radio" name="type" value="3" id="optradio-video">Video
+									<div class="control--indicator"></div>
+								</label>
+								<label class="c-label-primary primary control control--radio">
+									<input type="radio" name="type" value="6" id="optradio-book">Book
+									<div class="control--indicator"></div>
+								</label>
+							</div>
+						</div>
+						<div class="form-group modal-sec-tags">
+							<div class="tag-info-title2">
+								<p>This course is for:</p>
+							</div>
+							<div class="control-group label-style-2 modal-form-sec">
+								<label class="c-label-primary primary control control--radio">
+									<input type="radio" name="level" value="7" id="optradio-beginner">Beginner
+									<div class="control--indicator"></div>
+								</label>
+								<label class="c-label-primary primary control control--radio">
+									<input type="radio" name="level" value="5" id="optradio-advanced">Advanced
+									<div class="control--indicator"></div>
+								</label>
+							</div>
+						</div>
+						<div class="form-group">
+							<button type="submit" class="btn btn-primary full_width">Submit Tutorial</button>
+						</div>
+					</form>
+				</div><!-- /.signin-modal-body -->
+			</div><!-- /.modal-content -->
+		</div><!-- /.modal-dialog -->
+	</div><!-- /.modal-container -->
+</div><!-- /.modal --><div id="modalFeedback" class="modal full-page-modal" tabindex="-1" role="dialog" aria-hidden="false">
+	<button type="button" class="modal-action-btn action-right close-modal" data-dismiss="modal"><i class="ion-android-close"></i></button>
+	<div class="modal-container">
+		<div class="modal-dialog" role="document">
+			<div class="modal-content text-center">
+
+				<div class="modal-body submit-feedback-modal">
+					<div class="modal-header">
+						<div class="modal-title">Feedback</div>
+						<div class="modal-subtitle">
+							We would love to hear from you!
+						</div>
+					</div>
+					<form name="submitFeedbackForm" method="post" action="https://hackr.io/feedback" id="submit-feedback">
+						<input type="hidden" name="_token" value="dgeQ5HOsCmodZRiyene483U0NTqkiAfQfyZ4ciaQ">
+						<input type="text" name="email" value="" class="feedback-email-input" placeholder="Email">
+						<div class="form-group text-form-group">
+              <textarea type="text" class="form-control text-input js-feedback-btn" name="text" placeholder="Write your Feedback here"></textarea>
+						</div>
+						<div class="form-group">
+							<button type="submit" class="btn btn-primary full_width">Submit Feedback</button>
+						</div>
+					</form>
+				</div><!-- /.signin-modal-body -->
+
+			</div><!-- /.modal-content -->
+		</div><!-- /.modal-dialog -->
+	</div><!-- /.modal-container -->
+</div><!-- /.modal -->
+<div id="modalDesktopNotification" class="modal full-page-modal" tabindex="-1" role="dialog" aria-hidden="false">
+	<div class="modal-container">
+		<div class="modal-dialog" role="document">
+			<div class="modal-content text-center">
+
+				<div class="modal-body submit-feedback-modal">
+					<div class="modal-header">
+						<div class="modal-title">Stay Connected!</div>
+						<div class="modal-subtitle">
+							Enable desktop notifications to get real time updates when your buddies send any message to the group.
+						</div>
+					</div>
+					<button class="btn btn-secondary marginright-xs js-close" data-dismiss="modal">Not Now</button>
+					<button class="btn btn-primary marginleft-xs js-enable">Enable</button>
+				</div><!-- /.signin-modal-body -->
+
+			</div><!-- /.modal-content -->
+		</div><!-- /.modal-dialog -->
+	</div><!-- /.modal-container -->
+</div><!-- /.modal -->
+
+	<footer>
+	<div class="container alt">
+		<div class="row">
+			<div class="col-xs-12">
+				<div class="footer-holder">
+					<div class="links">
+						<ul class="fx-links">
+							<li><a href="https://hackr.io/about">About Us</a></li>
+							<li><a href="https://hackr.io/latest">Latest Tutorials</a></li>
+							<li><a href="https://design.instructy.io/" rel="nofollow" target="_blank">Design Tutorials</a></li>
+							<li><a href="https://hackr.io/help">Help &amp; FAQ</a></li>
+							<li><a data-toggle="modal" data-target="#modalFeedback" href="javascript:void(0)">Feedback</a></li>
+						</ul>
+					</div>
+					<div class="social-links links">
+						<ul class="fx-links">
+							<li><a href="https://www.facebook.com/hackr.io" target="_blank" rel="nofollow" class="facebook"><i class="fa fa-facebook"></i>Facebook</a></li>
+							<li><a href="https://twitter.com/hackrio_" target="_blank" rel="nofollow" class="twitter"><i class="fa fa-twitter"></i>Twitter</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</footer>
+
+  <script type="text/javascript">
+    var base_url = "https://hackr.io";
+        var user_id = ""
+    var courses = {"139":{"id":344,"slug":"alexa-skills-kit-ask","name":"Alexa Skills Kit","alias":"","logo":"https:\/\/hackr.io\/tutorials\/learn-alexa-skills-kit-ask\/svg\/alexa-skills-kit-ask_logo","parent_id":null,"mobile_visible":false,"desktop_visible":false},"25":{"id":27,"slug":"android-development","name":"Android Development","alias":"","logo":"https:\/\/hackr.io\/tutorials\/learn-android-development\/svg\/android-development_logo","parent_id":null,"mobile_visible":true,"desktop_visible":true},"23":{"id":25,"slug":"angular","name":"Angular","alias":"mean, angular2,angular4,angular 4,angular 2,angularjs,angular 5,","logo":"https:\/\/hackr.io\/tutorials\/learn-angular\/svg\/angular_logo","parent_id":null,"mobile_visible":true,"desktop_visible":true},"52":{"id":54,"slug":"ansible","name":"Ansible","alias":"devops,","logo":"https:\/\/hackr.io\/tutorials\/learn-ansible\/svg\/ansible_logo","parent_id":null,"mobile_visible":true,"desktop_visible":true},"136":{"id":320,"slug":"apache-spark","name":"Apache Spark","alias":"big data,","logo":"https:\/\/hackr.io\/tutorials\/learn-apache-spark\/svg\/apache-spark_logo","parent_id":null,"mobile_visible":true,"desktop_visible":true},"128":{"id":223,"slug":"arduino","name":"Arduino","alias":"iot,","logo":"https:\/\/hackr.io\/tutorials\/learn-arduino\/svg\/arduino_logo","parent_id":null,"mobile_visible":true,"desktop_visible":true},"102":{"id":106,"slug":"artificial-intelligence-ai","name":"Artificial Intelligence","alias":"ai,nlp,","logo":"https:\/\/hackr.io\/tutorials\/learn-artificial-intelligence-ai\/svg\/artificial-intelligence-ai_logo","parent_id":null,"mobile_visible":true,"desktop_visible":true},"64":{"id":67,"slug":"asp-net","name":"ASP.NET","alias":"microsoft,mvc,","logo":"https:\/\/hackr.io\/tutorials\/learn-asp-net\/svg\/asp-net_logo","parent_id":null,"mobile_visible":true,"desktop_visible":true},"90":{"id":93,"slug":"assembly-language","name":"Assembly Language","alias":"x86,asm,","logo":"https:\/\/hackr.io\/tutorials\/learn-assembly-language\/svg\/assembly-language_logo","parent_id":null,"mobile_visible":true,"desktop_visible":true},"40":{"id":42,"slug":"awk","name":"AWK","alias":"","logo":"https:\/\/hackr.io\/tutorials\/learn-awk\/svg\/awk_logo","parent_id":null,"mobile_visible":false,"desktop_visible":true},"21":{"id":22,"slug":"amazon-web-services-aws","name":"AWS","alias":"cloud computing,","logo":"https:\/\/hackr.io\/tutorials\/learn-amazon-web-services-aws\/svg\/amazon-web-services-aws_logo","parent_id":null,"mobile_visible":true,"desktop_visible":true},"1":{"id":2,"slug":"backbone-js","name":"Backbone.js","alias":"","logo":"https:\/\/hackr.io\/tutorials\/learn-backbone-js\/svg\/backbone-js_logo","parent_id":null,"mobile_visible":false,"desktop_visible":true},"140":{"id":378,"slug":"bitcoin","name":"Bitcoin","alias":"btc,cryptocurrency,cryptoassets,blockchain,","logo":"https:\/\/hackr.io\/tutorials\/learn-bitcoin\/svg\/bitcoin_logo","parent_id":null,"mobile_visible":true,"desktop_visible":true},"87":{"id":90,"slug":"bootstrap","name":"Bootstrap","alias":"","logo":"https:\/\/hackr.io\/tutorials\/learn-bootstrap\/svg\/bootstrap_logo","parent_id":null,"mobile_visible":true,"desktop_visible":true},"85":{"id":88,"slug":"c","name":"C","alias":"c programming,","logo":"https:\/\/hackr.io\/tutorials\/learn-c\/svg\/c_logo","parent_id":null,"mobile_visible":true,"desktop_visible":true},"63":{"id":66,"slug":"c-sharp","name":"C#","alias":"microsoft","logo":"https:\/\/hackr.io\/tutorials\/learn-c-sharp\/svg\/c-sharp_logo","parent_id":null,"mobile_visible":true,"desktop_visible":true},"60":{"id":63,"slug":"c-plus-plus","name":"C++","alias":"","logo":"https:\/\/hackr.io\/tutorials\/learn-c-plus-plus\/svg\/c-plus-plus_logo","parent_id":null,"mobile_visible":true,"desktop_visible":true},"9":{"id":10,"slug":"cakephp","name":"CakePHP","alias":"","logo":"https:\/\/hackr.io\/tutorials\/learn-cakephp\/svg\/cakephp_logo","parent_id":null,"mobile_visible":false,"desktop_visible":true},"76":{"id":79,"slug":"cassandra","name":"Cassandra","alias":"nosql","logo":"https:\/\/hackr.io\/tutorials\/learn-cassandra\/svg\/cassandra_logo","parent_id":null,"mobile_visible":false,"desktop_visible":true},"53":{"id":55,"slug":"chef","name":"Chef","alias":"devops,","logo":"https:\/\/hackr.io\/tutorials\/learn-chef\/svg\/chef_logo","parent_id":null,"mobile_visible":true,"desktop_visible":true},"75":{"id":78,"slug":"clojure","name":"Clojure","alias":"","logo":"https:\/\/hackr.io\/tutorials\/learn-clojure\/svg\/clojure_logo","parent_id":null,"mobile_visible":false,"desktop_visible":true},"125":{"id":220,"slug":"cobol","name":"COBOL","alias":"","logo":"https:\/\/hackr.io\/tutorials\/learn-cobol\/svg\/cobol_logo","parent_id":null,"mobile_visible":false,"desktop_visible":false},"116":{"id":120,"slug":"codeigniter","name":"CodeIgniter","alias":"ci,","logo":"https:\/\/hackr.io\/tutorials\/learn-codeigniter\/svg\/codeigniter_logo","parent_id":null,"mobile_visible":false,"desktop_visible":false},"30":{"id":32,"slug":"coffeescript","name":"CoffeeScript","alias":"","logo":"https:\/\/hackr.io\/tutorials\/learn-coffeescript\/svg\/coffeescript_logo","parent_id":null,"mobile_visible":false,"desktop_visible":false},"141":{"id":388,"slug":"comptia-certification","name":"CompTIA Certification","alias":"networking,","logo":"https:\/\/hackr.io\/tutorials\/learn-comptia-certification\/svg\/comptia-certification_logo","parent_id":null,"mobile_visible":false,"desktop_visible":true},"36":{"id":38,"slug":"couchdb","name":"CouchDB","alias":"","logo":"https:\/\/hackr.io\/tutorials\/learn-couchdb\/svg\/couchdb_logo","parent_id":null,"mobile_visible":false,"desktop_visible":false},"15":{"id":16,"slug":"css","name":"CSS","alias":"css 3,css3,","logo":"https:\/\/hackr.io\/tutorials\/learn-css\/svg\/css_logo","parent_id":null,"mobile_visible":true,"desktop_visible":true},"73":{"id":76,"slug":"d-programming-language","name":"D","alias":"","logo":"https:\/\/hackr.io\/tutorials\/learn-d-programming-language\/svg\/d-programming-language_logo","parent_id":null,"mobile_visible":false,"desktop_visible":false},"84":{"id":87,"slug":"d3-js","name":"D3.js","alias":"data visualization, dataviz","logo":"https:\/\/hackr.io\/tutorials\/learn-d3-js\/svg\/d3-js_logo","parent_id":null,"mobile_visible":true,"desktop_visible":true},"109":{"id":113,"slug":"dart","name":"Dart","alias":"","logo":"https:\/\/hackr.io\/tutorials\/learn-dart\/svg\/dart_logo","parent_id":null,"mobile_visible":false,"desktop_visible":false},"126":{"id":221,"slug":"data-science","name":"Data Science","alias":"numpy,","logo":"https:\/\/hackr.io\/tutorials\/learn-data-science\/svg\/data-science_logo","parent_id":null,"mobile_visible":true,"desktop_visible":true},"8":{"id":9,"slug":"data-structures-algorithms","name":"Data Structures and Algorithms","alias":"ds,dsa,","logo":"https:\/\/hackr.io\/tutorials\/learn-data-structures-algorithms\/svg\/data-structures-algorithms_logo","parent_id":null,"mobile_visible":true,"desktop_visible":true},"143":{"id":415,"slug":"software-design-patterns","name":"Design Patterns","alias":"","logo":"https:\/\/hackr.io\/tutorials\/learn-software-design-patterns\/svg\/software-design-patterns_logo","parent_id":null,"mobile_visible":true,"desktop_visible":true},"18":{"id":19,"slug":"django","name":"Django","alias":"","logo":"https:\/\/hackr.io\/tutorials\/learn-django\/svg\/django_logo","parent_id":null,"mobile_visible":true,"desktop_visible":true},"32":{"id":34,"slug":"docker","name":"Docker","alias":"","logo":"https:\/\/hackr.io\/tutorials\/learn-docker\/svg\/docker_logo","parent_id":null,"mobile_visible":true,"desktop_visible":true},"145":{"id":535,"slug":"drupal","name":"Drupal","alias":"","logo":"https:\/\/hackr.io\/tutorials\/learn-drupal\/svg\/drupal_logo","parent_id":null,"mobile_visible":true,"desktop_visible":true},"111":{"id":115,"slug":"ecmascript-es","name":"ECMAScript","alias":"es, es6","logo":"https:\/\/hackr.io\/tutorials\/learn-ecmascript-es\/svg\/ecmascript-es_logo","parent_id":null,"mobile_visible":true,"desktop_visible":true},"106":{"id":110,"slug":"elasticsearch","name":"Elasticsearch","alias":"elk,Logstash,Kibana","logo":"https:\/\/hackr.io\/tutorials\/learn-elasticsearch\/svg\/elasticsearch_logo","parent_id":null,"mobile_visible":false,"desktop_visible":true},"133":{"id":284,"slug":"electron","name":"Electron","alias":"","logo":"https:\/\/hackr.io\/tutorials\/learn-electron\/svg\/electron_logo","parent_id":null,"mobile_visible":true,"desktop_visible":true},"96":{"id":99,"slug":"elixir","name":"Elixir","alias":"phoenix,","logo":"https:\/\/hackr.io\/tutorials\/learn-elixir\/svg\/elixir_logo","parent_id":null,"mobile_visible":true,"desktop_visible":true},"101":{"id":105,"slug":"elm","name":"Elm","alias":"","logo":"https:\/\/hackr.io\/tutorials\/learn-elm\/svg\/elm_logo","parent_id":null,"mobile_visible":false,"desktop_visible":false},"62":{"id":65,"slug":"emacs","name":"Emacs","alias":"","logo":"https:\/\/hackr.io\/tutorials\/learn-emacs\/svg\/emacs_logo","parent_id":null,"mobile_visible":false,"desktop_visible":true},"19":{"id":20,"slug":"ember-js","name":"Ember.js","alias":"","logo":"https:\/\/hackr.io\/tutorials\/learn-ember-js\/svg\/ember-js_logo","parent_id":null,"mobile_visible":false,"desktop_visible":false},"58":{"id":60,"slug":"erlang","name":"Erlang","alias":"","logo":"https:\/\/hackr.io\/tutorials\/learn-erlang\/svg\/erlang_logo","parent_id":null,"mobile_visible":false,"desktop_visible":false},"37":{"id":39,"slug":"express-js","name":"Express","alias":"mean","logo":"https:\/\/hackr.io\/tutorials\/learn-express-js\/svg\/express-js_logo","parent_id":null,"mobile_visible":false,"desktop_visible":true},"115":{"id":119,"slug":"f-sharp","name":"F#","alias":"","logo":"https:\/\/hackr.io\/tutorials\/learn-f-sharp\/svg\/f-sharp_logo","parent_id":null,"mobile_visible":false,"desktop_visible":false},"45":{"id":47,"slug":"firebase","name":"Firebase","alias":"","logo":"https:\/\/hackr.io\/tutorials\/learn-firebase\/svg\/firebase_logo","parent_id":null,"mobile_visible":true,"desktop_visible":true},"69":{"id":72,"slug":"flask","name":"Flask","alias":"","logo":"https:\/\/hackr.io\/tutorials\/learn-flask\/svg\/flask_logo","parent_id":null,"mobile_visible":true,"desktop_visible":true},"119":{"id":123,"slug":"forth","name":"Forth","alias":"","logo":"https:\/\/hackr.io\/tutorials\/learn-forth\/svg\/forth_logo","parent_id":null,"mobile_visible":false,"desktop_visible":false},"120":{"id":124,"slug":"fortran","name":"Fortran","alias":"","logo":"https:\/\/hackr.io\/tutorials\/learn-fortran\/svg\/fortran_logo","parent_id":null,"mobile_visible":false,"desktop_visible":false},"0":{"id":1,"slug":"git","name":"Git","alias":"","logo":"https:\/\/hackr.io\/tutorials\/learn-git\/svg\/git_logo","parent_id":null,"mobile_visible":true,"desktop_visible":true},"35":{"id":37,"slug":"golang","name":"Go","alias":"golang","logo":"https:\/\/hackr.io\/tutorials\/learn-golang\/svg\/golang_logo","parent_id":null,"mobile_visible":true,"desktop_visible":true},"50":{"id":52,"slug":"google-analytics","name":"Google Analytics","alias":"","logo":"https:\/\/hackr.io\/tutorials\/learn-google-analytics\/svg\/google-analytics_logo","parent_id":null,"mobile_visible":false,"desktop_visible":false},"71":{"id":74,"slug":"google-apps-scripts","name":"Google Apps Scripts","alias":"","logo":"https:\/\/hackr.io\/tutorials\/learn-google-apps-scripts\/svg\/google-apps-scripts_logo","parent_id":null,"mobile_visible":false,"desktop_visible":false},"142":{"id":405,"slug":"google-cloud-platform","name":"Google Cloud Platform","alias":"gcp","logo":"https:\/\/hackr.io\/tutorials\/learn-google-cloud-platform\/svg\/google-cloud-platform_logo","parent_id":null,"mobile_visible":false,"desktop_visible":true},"138":{"id":333,"slug":"grails","name":"Grails","alias":"","logo":"https:\/\/hackr.io\/tutorials\/learn-grails\/svg\/grails_logo","parent_id":null,"mobile_visible":false,"desktop_visible":false},"104":{"id":108,"slug":"graphql","name":"GraphQL","alias":"","logo":"https:\/\/hackr.io\/tutorials\/learn-graphql\/svg\/graphql_logo","parent_id":null,"mobile_visible":false,"desktop_visible":true},"137":{"id":321,"slug":"apache-groovy","name":"Groovy","alias":"","logo":"https:\/\/hackr.io\/tutorials\/learn-apache-groovy\/svg\/apache-groovy_logo","parent_id":null,"mobile_visible":false,"desktop_visible":false},"26":{"id":28,"slug":"growth-hacking","name":"Growth Hacking","alias":"","logo":"https:\/\/hackr.io\/tutorials\/learn-growth-hacking\/svg\/growth-hacking_logo","parent_id":null,"mobile_visible":true,"desktop_visible":true},"77":{"id":80,"slug":"grunt","name":"Grunt","alias":"","logo":"https:\/\/hackr.io\/tutorials\/learn-grunt\/svg\/grunt_logo","parent_id":null,"mobile_visible":false,"desktop_visible":false},"56":{"id":58,"slug":"gulp","name":"Gulp","alias":"","logo":"https:\/\/hackr.io\/tutorials\/learn-gulp\/svg\/gulp_logo","parent_id":null,"mobile_visible":false,"desktop_visible":true},"88":{"id":91,"slug":"hadoop-big-data","name":"Hadoop","alias":"bigdata, big data","logo":"https:\/\/hackr.io\/tutorials\/learn-hadoop-big-data\/svg\/hadoop-big-data_logo","parent_id":null,"mobile_visible":true,"desktop_visible":true},"44":{"id":46,"slug":"haskell","name":"Haskell","alias":"clash,","logo":"https:\/\/hackr.io\/tutorials\/learn-haskell\/svg\/haskell_logo","parent_id":null,"mobile_visible":false,"desktop_visible":true},"144":{"id":446,"slug":"hibernate-framework","name":"Hibernate Framework","alias":"jpa","logo":"https:\/\/hackr.io\/tutorials\/learn-hibernate-framework\/svg\/hibernate-framework_logo","parent_id":null,"mobile_visible":false,"desktop_visible":true},"4":{"id":5,"slug":"html-5","name":"HTML 5","alias":"html5","logo":"https:\/\/hackr.io\/tutorials\/learn-html-5\/svg\/html-5_logo","parent_id":null,"mobile_visible":true,"desktop_visible":true},"72":{"id":75,"slug":"adobe-illustrator","name":"Illustrator","alias":"adobe","logo":"https:\/\/hackr.io\/tutorials\/learn-adobe-illustrator\/svg\/adobe-illustrator_logo","parent_id":null,"mobile_visible":false,"desktop_visible":true},"117":{"id":121,"slug":"information-security-hacking","name":"Information Security & Hacking","alias":"infosec,kali linux,","logo":"https:\/\/hackr.io\/tutorials\/learn-information-security-hacking\/svg\/information-security-hacking_logo","parent_id":null,"mobile_visible":true,"desktop_visible":true},"107":{"id":111,"slug":"intro-to-programming","name":"Intro to Programming","alias":"cs, computer science, web development,hello, full stack,website,oops,","logo":"https:\/\/hackr.io\/tutorials\/learn-intro-to-programming\/svg\/intro-to-programming_logo","parent_id":null,"mobile_visible":true,"desktop_visible":true},"82":{"id":85,"slug":"ionic","name":"Ionic","alias":"ionic 2, ionic 3,cordova,","logo":"https:\/\/hackr.io\/tutorials\/learn-ionic\/svg\/ionic_logo","parent_id":null,"mobile_visible":true,"desktop_visible":true},"33":{"id":35,"slug":"ios-swift","name":"iOS and Swift","alias":"iphone","logo":"https:\/\/hackr.io\/tutorials\/learn-ios-swift\/svg\/ios-swift_logo","parent_id":null,"mobile_visible":true,"desktop_visible":true},"47":{"id":49,"slug":"java","name":"Java","alias":"advance java,jsp,jboss,java ee,","logo":"https:\/\/hackr.io\/tutorials\/learn-java\/svg\/java_logo","parent_id":null,"mobile_visible":true,"desktop_visible":true},"6":{"id":7,"slug":"javascript","name":"JavaScript","alias":"js","logo":"https:\/\/hackr.io\/tutorials\/learn-javascript\/svg\/javascript_logo","parent_id":null,"mobile_visible":true,"desktop_visible":true},"112":{"id":116,"slug":"java-spring-framework","name":"Java Spring Framework","alias":"jsf,spring boot,mvc,","logo":"https:\/\/hackr.io\/tutorials\/learn-java-spring-framework\/svg\/java-spring-framework_logo","parent_id":null,"mobile_visible":true,"desktop_visible":true},"135":{"id":318,"slug":"jenkins","name":"Jenkins","alias":"devops,ci,","logo":"https:\/\/hackr.io\/tutorials\/learn-jenkins\/svg\/jenkins_logo","parent_id":null,"mobile_visible":true,"desktop_visible":true},"2":{"id":3,"slug":"jquery","name":"jQuery","alias":"javascript","logo":"https:\/\/hackr.io\/tutorials\/learn-jquery\/svg\/jquery_logo","parent_id":null,"mobile_visible":false,"desktop_visible":true},"99":{"id":103,"slug":"julia","name":"Julia","alias":"","logo":"https:\/\/hackr.io\/tutorials\/learn-julia\/svg\/julia_logo","parent_id":null,"mobile_visible":false,"desktop_visible":true},"131":{"id":237,"slug":"kotlin","name":"Kotlin","alias":"","logo":"https:\/\/hackr.io\/tutorials\/learn-kotlin\/svg\/kotlin_logo","parent_id":null,"mobile_visible":true,"desktop_visible":true},"122":{"id":215,"slug":"kubernetes","name":"Kubernetes","alias":"K8s,devops,","logo":"https:\/\/hackr.io\/tutorials\/learn-kubernetes\/svg\/kubernetes_logo","parent_id":null,"mobile_visible":false,"desktop_visible":true},"10":{"id":11,"slug":"laravel","name":"Laravel","alias":"","logo":"https:\/\/hackr.io\/tutorials\/learn-laravel\/svg\/laravel_logo","parent_id":null,"mobile_visible":true,"desktop_visible":true},"78":{"id":81,"slug":"latex","name":"Latex","alias":"","logo":"https:\/\/hackr.io\/tutorials\/learn-latex\/svg\/latex_logo","parent_id":null,"mobile_visible":false,"desktop_visible":false},"92":{"id":95,"slug":"less","name":"LESS","alias":"css,","logo":"https:\/\/hackr.io\/tutorials\/learn-less\/svg\/less_logo","parent_id":null,"mobile_visible":false,"desktop_visible":false},"54":{"id":56,"slug":"linux-system-administration","name":"Linux System Administration","alias":"lamp,ubuntu,unix,bash,shell,powershell,","logo":"https:\/\/hackr.io\/tutorials\/learn-linux-system-administration\/svg\/linux-system-administration_logo","parent_id":null,"mobile_visible":true,"desktop_visible":true},"93":{"id":96,"slug":"lisp","name":"Lisp","alias":"","logo":"https:\/\/hackr.io\/tutorials\/learn-lisp\/svg\/lisp_logo","parent_id":null,"mobile_visible":false,"desktop_visible":false},"124":{"id":217,"slug":"lua","name":"Lua","alias":"","logo":"https:\/\/hackr.io\/tutorials\/learn-lua\/svg\/lua_logo","parent_id":null,"mobile_visible":false,"desktop_visible":false},"103":{"id":107,"slug":"machine-learning-ml","name":"Machine Learning","alias":"ml,deep learning,tensorflow,neural networks,","logo":"https:\/\/hackr.io\/tutorials\/learn-machine-learning-ml\/svg\/machine-learning-ml_logo","parent_id":null,"mobile_visible":true,"desktop_visible":true},"79":{"id":82,"slug":"matlab","name":"MATLAB","alias":"","logo":"https:\/\/hackr.io\/tutorials\/learn-matlab\/svg\/matlab_logo","parent_id":null,"mobile_visible":true,"desktop_visible":true},"28":{"id":30,"slug":"mercurial","name":"Mercurial","alias":"","logo":"https:\/\/hackr.io\/tutorials\/learn-mercurial\/svg\/mercurial_logo","parent_id":null,"mobile_visible":false,"desktop_visible":false},"48":{"id":50,"slug":"meteor","name":"Meteor","alias":"","logo":"https:\/\/hackr.io\/tutorials\/learn-meteor\/svg\/meteor_logo","parent_id":null,"mobile_visible":false,"desktop_visible":false},"67":{"id":70,"slug":"microsoft-azure","name":"Microsoft Azure","alias":"","logo":"https:\/\/hackr.io\/tutorials\/learn-microsoft-azure\/svg\/microsoft-azure_logo","parent_id":null,"mobile_visible":false,"desktop_visible":false},"24":{"id":26,"slug":"mongodb","name":"MongoDB","alias":"mean,database,db,","logo":"https:\/\/hackr.io\/tutorials\/learn-mongodb\/svg\/mongodb_logo","parent_id":null,"mobile_visible":true,"desktop_visible":true},"51":{"id":53,"slug":"mysql","name":"MySQL","alias":"lamp, database, db","logo":"https:\/\/hackr.io\/tutorials\/learn-mysql\/svg\/mysql_logo","parent_id":null,"mobile_visible":true,"desktop_visible":true},"17":{"id":18,"slug":"nginx","name":"Nginx","alias":"","logo":"https:\/\/hackr.io\/tutorials\/learn-nginx\/svg\/nginx_logo","parent_id":null,"mobile_visible":false,"desktop_visible":true},"121":{"id":201,"slug":"nim-lang","name":"Nim","alias":"","logo":"https:\/\/hackr.io\/tutorials\/learn-nim-lang\/svg\/nim-lang_logo","parent_id":null,"mobile_visible":false,"desktop_visible":false},"20":{"id":21,"slug":"node-js","name":"Node.js","alias":"mean,nodejs,","logo":"https:\/\/hackr.io\/tutorials\/learn-node-js\/svg\/node-js_logo","parent_id":null,"mobile_visible":true,"desktop_visible":true},"110":{"id":114,"slug":"objective-c","name":"Objective-C","alias":"","logo":"https:\/\/hackr.io\/tutorials\/learn-objective-c\/svg\/objective-c_logo","parent_id":null,"mobile_visible":false,"desktop_visible":false},"118":{"id":122,"slug":"ocaml","name":"OCaml","alias":"","logo":"https:\/\/hackr.io\/tutorials\/learn-ocaml\/svg\/ocaml_logo","parent_id":null,"mobile_visible":false,"desktop_visible":false},"130":{"id":225,"slug":"opencv","name":"OpenCV","alias":"","logo":"https:\/\/hackr.io\/tutorials\/learn-opencv\/svg\/opencv_logo","parent_id":null,"mobile_visible":false,"desktop_visible":false},"98":{"id":101,"slug":"opengl","name":"OpenGL","alias":"","logo":"https:\/\/hackr.io\/tutorials\/learn-opengl\/svg\/opengl_logo","parent_id":null,"mobile_visible":false,"desktop_visible":false},"41":{"id":43,"slug":"perl","name":"Perl","alias":"","logo":"https:\/\/hackr.io\/tutorials\/learn-perl\/svg\/perl_logo","parent_id":null,"mobile_visible":false,"desktop_visible":false},"27":{"id":29,"slug":"phonegap","name":"PhoneGap","alias":"Cordova,","logo":"https:\/\/hackr.io\/tutorials\/learn-phonegap\/svg\/phonegap_logo","parent_id":null,"mobile_visible":false,"desktop_visible":false},"7":{"id":8,"slug":"photoshop","name":"Photoshop","alias":"adobe","logo":"https:\/\/hackr.io\/tutorials\/learn-photoshop\/svg\/photoshop_logo","parent_id":null,"mobile_visible":true,"desktop_visible":true},"38":{"id":40,"slug":"php","name":"PHP","alias":"lamp","logo":"https:\/\/hackr.io\/tutorials\/learn-php\/svg\/php_logo","parent_id":null,"mobile_visible":true,"desktop_visible":true},"86":{"id":89,"slug":"polymer","name":"Polymer","alias":"","logo":"https:\/\/hackr.io\/tutorials\/learn-polymer\/svg\/polymer_logo","parent_id":null,"mobile_visible":false,"desktop_visible":true},"94":{"id":97,"slug":"postgres","name":"Postgres","alias":"postgresql","logo":"https:\/\/hackr.io\/tutorials\/learn-postgres\/svg\/postgres_logo","parent_id":null,"mobile_visible":false,"desktop_visible":false},"59":{"id":61,"slug":"prolog","name":"Prolog","alias":"","logo":"https:\/\/hackr.io\/tutorials\/learn-prolog\/svg\/prolog_logo","parent_id":null,"mobile_visible":false,"desktop_visible":false},"46":{"id":48,"slug":"puppet","name":"Puppet","alias":"devops,","logo":"https:\/\/hackr.io\/tutorials\/learn-puppet\/svg\/puppet_logo","parent_id":null,"mobile_visible":false,"desktop_visible":true},"12":{"id":13,"slug":"python","name":"Python","alias":"phython,pandas,","logo":"https:\/\/hackr.io\/tutorials\/learn-python\/svg\/python_logo","parent_id":null,"mobile_visible":true,"desktop_visible":true},"55":{"id":57,"slug":"r","name":"R","alias":"","logo":"https:\/\/hackr.io\/tutorials\/learn-r\/svg\/r_logo","parent_id":null,"mobile_visible":true,"desktop_visible":true},"129":{"id":224,"slug":"raspberry-pi","name":"Raspberry Pi","alias":"iot,","logo":"https:\/\/hackr.io\/tutorials\/learn-raspberry-pi\/svg\/raspberry-pi_logo","parent_id":null,"mobile_visible":true,"desktop_visible":true},"42":{"id":44,"slug":"react","name":"React","alias":"","logo":"https:\/\/hackr.io\/tutorials\/learn-react\/svg\/react_logo","parent_id":null,"mobile_visible":true,"desktop_visible":true},"134":{"id":302,"slug":"react-native","name":"React Native","alias":"cordova,","logo":"https:\/\/hackr.io\/tutorials\/learn-react-native\/svg\/react-native_logo","parent_id":null,"mobile_visible":true,"desktop_visible":true},"29":{"id":31,"slug":"redis","name":"Redis","alias":"cache","logo":"https:\/\/hackr.io\/tutorials\/learn-redis\/svg\/redis_logo","parent_id":null,"mobile_visible":false,"desktop_visible":true},"127":{"id":222,"slug":"redux","name":"Redux","alias":"","logo":"https:\/\/hackr.io\/tutorials\/learn-redux\/svg\/redux_logo","parent_id":null,"mobile_visible":false,"desktop_visible":true},"61":{"id":64,"slug":"regular-expressions-regex","name":"Regular Expressions","alias":"regex","logo":"https:\/\/hackr.io\/tutorials\/learn-regular-expressions-regex\/svg\/regular-expressions-regex_logo","parent_id":null,"mobile_visible":false,"desktop_visible":true},"34":{"id":36,"slug":"requirejs","name":"RequireJS","alias":"","logo":"https:\/\/hackr.io\/tutorials\/learn-requirejs\/svg\/requirejs_logo","parent_id":null,"mobile_visible":false,"desktop_visible":false},"13":{"id":14,"slug":"ruby","name":"Ruby","alias":"","logo":"https:\/\/hackr.io\/tutorials\/learn-ruby\/svg\/ruby_logo","parent_id":null,"mobile_visible":true,"desktop_visible":true},"3":{"id":4,"slug":"ruby-on-rails","name":"Ruby on Rails","alias":"ror","logo":"https:\/\/hackr.io\/tutorials\/learn-ruby-on-rails\/svg\/ruby-on-rails_logo","parent_id":null,"mobile_visible":true,"desktop_visible":true},"83":{"id":86,"slug":"rust","name":"Rust","alias":"","logo":"https:\/\/hackr.io\/tutorials\/learn-rust\/svg\/rust_logo","parent_id":null,"mobile_visible":false,"desktop_visible":true},"132":{"id":280,"slug":"sap-abap","name":"SAP ABAP","alias":"","logo":"https:\/\/hackr.io\/tutorials\/learn-sap-abap\/svg\/sap-abap_logo","parent_id":null,"mobile_visible":true,"desktop_visible":true},"81":{"id":84,"slug":"sass","name":"Sass","alias":"precompiler css,css,","logo":"https:\/\/hackr.io\/tutorials\/learn-sass\/svg\/sass_logo","parent_id":null,"mobile_visible":false,"desktop_visible":true},"49":{"id":51,"slug":"scala","name":"Scala","alias":"","logo":"https:\/\/hackr.io\/tutorials\/learn-scala\/svg\/scala_logo","parent_id":null,"mobile_visible":false,"desktop_visible":true},"22":{"id":23,"slug":"sed","name":"Sed","alias":"","logo":"https:\/\/hackr.io\/tutorials\/learn-sed\/svg\/sed_logo","parent_id":null,"mobile_visible":false,"desktop_visible":false},"146":{"id":548,"slug":"selenium","name":"Selenium","alias":"automation,testing,","logo":"https:\/\/hackr.io\/tutorials\/learn-selenium\/svg\/selenium_logo","parent_id":null,"mobile_visible":false,"desktop_visible":true},"5":{"id":6,"slug":"seo","name":"SEO","alias":"search","logo":"https:\/\/hackr.io\/tutorials\/learn-seo\/svg\/seo_logo","parent_id":null,"mobile_visible":true,"desktop_visible":true},"70":{"id":73,"slug":"sinatra","name":"Sinatra","alias":"","logo":"https:\/\/hackr.io\/tutorials\/learn-sinatra\/svg\/sinatra_logo","parent_id":null,"mobile_visible":false,"desktop_visible":false},"57":{"id":59,"slug":"sketch","name":"Sketch","alias":"","logo":"https:\/\/hackr.io\/tutorials\/learn-sketch\/svg\/sketch_logo","parent_id":null,"mobile_visible":false,"desktop_visible":false},"108":{"id":112,"slug":"smalltalk","name":"Smalltalk","alias":"Squeak","logo":"https:\/\/hackr.io\/tutorials\/learn-smalltalk\/svg\/smalltalk_logo","parent_id":null,"mobile_visible":false,"desktop_visible":false},"95":{"id":98,"slug":"socket-io","name":"Socket.io","alias":"sockets,websocket","logo":"https:\/\/hackr.io\/tutorials\/learn-socket-io\/svg\/socket-io_logo","parent_id":null,"mobile_visible":false,"desktop_visible":true},"147":{"id":629,"slug":"solidity","name":"Solidity","alias":"blockchain,ethereum,evm,web3.js,cryptocurrency,","logo":"https:\/\/hackr.io\/tutorials\/learn-solidity\/svg\/solidity_logo","parent_id":null,"mobile_visible":true,"desktop_visible":true},"39":{"id":41,"slug":"sql","name":"SQL","alias":"database, db","logo":"https:\/\/hackr.io\/tutorials\/learn-sql\/svg\/sql_logo","parent_id":null,"mobile_visible":true,"desktop_visible":true},"65":{"id":68,"slug":"sql-server","name":"SQL Server","alias":"database,db,t-sql,","logo":"https:\/\/hackr.io\/tutorials\/learn-sql-server\/svg\/sql-server_logo","parent_id":null,"mobile_visible":false,"desktop_visible":true},"14":{"id":15,"slug":"svn","name":"SVN","alias":"subversion","logo":"https:\/\/hackr.io\/tutorials\/learn-svn\/svg\/svn_logo","parent_id":null,"mobile_visible":false,"desktop_visible":false},"43":{"id":45,"slug":"symfony","name":"Symfony","alias":"","logo":"https:\/\/hackr.io\/tutorials\/learn-symfony\/svg\/symfony_logo","parent_id":null,"mobile_visible":false,"desktop_visible":false},"113":{"id":117,"slug":"turtle-graphics","name":"Turtle graphics","alias":"kt, logo","logo":"https:\/\/hackr.io\/tutorials\/learn-turtle-graphics\/svg\/turtle-graphics_logo","parent_id":null,"mobile_visible":false,"desktop_visible":false},"100":{"id":104,"slug":"typescript","name":"TypeScript","alias":"","logo":"https:\/\/hackr.io\/tutorials\/learn-typescript\/svg\/typescript_logo","parent_id":null,"mobile_visible":false,"desktop_visible":true},"91":{"id":94,"slug":"unity","name":"Unity","alias":"game development,3d,","logo":"https:\/\/hackr.io\/tutorials\/learn-unity\/svg\/unity_logo","parent_id":null,"mobile_visible":true,"desktop_visible":true},"114":{"id":118,"slug":"unreal-engine","name":"Unreal Engine","alias":"ue, game development,","logo":"https:\/\/hackr.io\/tutorials\/learn-unreal-engine\/svg\/unreal-engine_logo","parent_id":null,"mobile_visible":false,"desktop_visible":true},"31":{"id":33,"slug":"vagrant","name":"Vagrant","alias":"devops,","logo":"https:\/\/hackr.io\/tutorials\/learn-vagrant\/svg\/vagrant_logo","parent_id":null,"mobile_visible":false,"desktop_visible":false},"11":{"id":12,"slug":"vim","name":"Vim","alias":"","logo":"https:\/\/hackr.io\/tutorials\/learn-vim\/svg\/vim_logo","parent_id":null,"mobile_visible":true,"desktop_visible":true},"66":{"id":69,"slug":"visual-basic-vb","name":"Visual Basic","alias":"vb, vba","logo":"https:\/\/hackr.io\/tutorials\/learn-visual-basic-vb\/svg\/visual-basic-vb_logo","parent_id":null,"mobile_visible":false,"desktop_visible":true},"97":{"id":100,"slug":"vue-js","name":"Vue.js","alias":"","logo":"https:\/\/hackr.io\/tutorials\/learn-vue-js\/svg\/vue-js_logo","parent_id":null,"mobile_visible":true,"desktop_visible":true},"74":{"id":77,"slug":"webgl","name":"WebGL","alias":"","logo":"https:\/\/hackr.io\/tutorials\/learn-webgl\/svg\/webgl_logo","parent_id":null,"mobile_visible":false,"desktop_visible":false},"105":{"id":109,"slug":"webpack","name":"Webpack","alias":"","logo":"https:\/\/hackr.io\/tutorials\/learn-webpack\/svg\/webpack_logo","parent_id":null,"mobile_visible":false,"desktop_visible":true},"16":{"id":17,"slug":"website-performance","name":"Website Performance","alias":"speed","logo":"https:\/\/hackr.io\/tutorials\/learn-website-performance\/svg\/website-performance_logo","parent_id":null,"mobile_visible":false,"desktop_visible":false},"68":{"id":71,"slug":"windows-server-administration","name":"Windows Server Administration","alias":"","logo":"https:\/\/hackr.io\/tutorials\/learn-windows-server-administration\/svg\/windows-server-administration_logo","parent_id":null,"mobile_visible":false,"desktop_visible":true},"89":{"id":92,"slug":"wordpress","name":"Wordpress","alias":"wordpress blog,website,wp,","logo":"https:\/\/hackr.io\/tutorials\/learn-wordpress\/svg\/wordpress_logo","parent_id":null,"mobile_visible":true,"desktop_visible":true},"123":{"id":216,"slug":"xamarin","name":"Xamarin","alias":"cordova,","logo":"https:\/\/hackr.io\/tutorials\/learn-xamarin\/svg\/xamarin_logo","parent_id":null,"mobile_visible":false,"desktop_visible":false},"80":{"id":83,"slug":"yii","name":"Yii","alias":"","logo":"https:\/\/hackr.io\/tutorials\/learn-yii\/svg\/yii_logo","parent_id":null,"mobile_visible":false,"desktop_visible":false}};
+
+  courses = Object.keys(courses).map(function (key) { return courses[key]; });
+  courses.sort(function(a, b) {
+		var courseA = a.name.toUpperCase();
+		var courseB = b.name.toUpperCase();
+		return (courseA < courseB) ? -1 : (courseA > courseB) ? 1 : 0;
+	});
+
+</script>
+
+
+<script type="text/javascript">
+  function downloadJSAtOnload() {
+  var element = document.createElement("script");
+  element.src = "https://hackr.io/dist/app-443abdd114e1463bd8ac.js";
+  document.body.appendChild(element);
+  }
+  if (window.addEventListener)
+  window.addEventListener("load", downloadJSAtOnload, false);
+  else if (window.attachEvent)
+  window.attachEvent("onload", downloadJSAtOnload);
+  else window.onload = downloadJSAtOnload;
+</script>
+
+<div id="amzn-assoc-ad-eaf2e8bb-c520-48d6-a93c-2c20c1efd99a"></div><script async src="//z-na.amazon-adsystem.com/widgets/onejs?MarketPlace=US&adInstanceId=eaf2e8bb-c520-48d6-a93c-2c20c1efd99a"></script>
+        
+  
+  <script>
+    window.intercomSettings = {
+        app_id: "s2nifou3"
+    };
+</script>
+
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"02a1bf835a","applicationID":"108176362","transactionName":"bwEHN0FQD0sEAkRaDlZLJABHWA5WShVFRw5KDQQPQB8NXQQTXh0IVgAAGw==","queueTime":0,"applicationTime":191,"atts":"Q0YEQQlKHEU=","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
+</html>

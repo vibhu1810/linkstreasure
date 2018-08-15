@@ -1,0 +1,105 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,400,700);
+
+/* css class for the edit profile generated errors */
+.profilepress-edit-profile-status {
+  width: 400px;
+  text-align: center;
+  background-color: #e74c3c;
+  color: #ffffff;
+  border: medium none;
+  border-radius: 4px;
+  font-size: 17px;
+  font-weight: normal;
+  line-height: 1.4;
+  padding: 8px 5px;
+  margin: auto;
+}
+
+.memo-edprofile-success {
+  width: 400px;
+  text-align: center;
+  background-color: #2ecc71;
+  color: #ffffff;
+  border: medium none;
+  border-radius: 4px;
+  font-size: 17px;
+  font-weight: normal;
+  line-height: 1.4;
+  padding: 8px 5px;
+  margin: auto;
+  
+}
+
+#sc-edprofile {
+	float:left;
+	border:solid 1px lightgray;
+	padding: 0%;
+  background: lightblue;
+  width: 60%;
+  margin-top: 1%;
+  margin-bottom: 2%;
+  transition: opacity 1s;
+  -webkit-transition: opacity 1s;
+  box-shadow:3px 5px 8px;
+
+}
+
+#sc-edprofile h1{
+  background: lightblue;
+  font-size: 150%;
+  font-weight: bold;
+  text-align: center;
+  color: gray;
+  margin:4% 0%;
+}
+
+#sc-edprofile .sc-container {
+	background-color:whitesmoke;
+  padding: 4% 10%;
+}
+
+div#sc-edprofile input[type="email"],
+div#sc-edprofile input[type="text"],
+div#sc-edprofile input[type="password"], div#sc-edprofile select, div#sc-edprofile textarea {
+  width: 80%;
+  background: #fff;
+  margin-bottom: 2%;
+  border: 1px solid #ccc;
+  padding: 1%;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 120%;
+  color: #555;
+}
+
+div#sc-edprofile select {
+  width: 82%;
+}
+
+div#sc-edprofile textarea {
+  height: 100px;
+}
+
+div#sc-edprofile input[type="submit"] {
+  width: 82%;
+  background: #3399cc;
+  border:0;
+  padding: 2%;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 120%;
+  color: #fff;
+  cursor: pointer;
+  transition: background .3s;
+  -webkit-transition: background .3s;
+}
+
+div#sc-edprofile input[type="submit"]:hover {
+  background: #2288bb;
+}
+.block img{
+	width: 120px;
+    height: 120px;
+	border: solid 1px;
+	border-radius:100%;
+	 padding:2%;
+	 margin:10%;
+	}
